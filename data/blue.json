@@ -1,0 +1,72 @@
+{
+  "blue:conjuration":
+  {
+    "titleText":"Conjuration",
+    "cost": 4,
+    "imageLink":"",
+    "descriptionText":"Sometimes you and your party might get lost, or have to leave without time to pack supplies. Things can get dire fast. Luckily the Conjuration class teaches spells related to create rations, small amounts of water and basic utensils. This is food that has the energy you need to fight on, but it isn't stuff you will grow big and strong on. Relying on this for tool long leaves you with various deficiencies. The food and water doesn't help with replenishing mana either, making it better for someone who doesn't rely too heavily on spells."
+  },
+  "blue:scrying":
+  {
+    "titleText":"Scrying",
+    "cost": 4,
+    "imageLink":"",
+    "descriptionText":"Learn to tell the future in vague terms and riddles that will often need to be deciphered first. Failing to do so may result in embarrassment. Due to the vagueness of scrying it is less like to result in Fate messing with the future. For instance you can see with ease if you will be happy with the results of your exams if you keep working at the same intensity, but not see the exact grade. Looking at events that will happen within the next two weeks will rarely give any results you can interpret accurately."
+  },
+  "blue:imitation":
+  {
+    "titleText":"Imitation",
+    "cost": 5,
+    "imageLink":"",
+    "descriptionText":"The imitation class covers the spells based on Wendigos, who call out to you with a familiar voice, and Mimics, those dastardly creatures lurking in dungeons pretending to be treasure chests ... <i>who even still stores their valuables in a obviously goden chest? </i> You will learn how to copy a voice from memory, including eventually pronunciation of certain words as well as dialect. If you show talent you may also learn how to temporarily copy a person's body. This seldom lass long and requires an immense knowledge of how a person looks, walks, etc."
+  },
+  "blue:illusions":
+  {
+    "titleText":"Illusions",
+    "cost": 5,
+    "imageLink":"",
+    "descriptionText":"Illusions are similar in nature to Imitation, but rather than changing yourself the source is some other point. Illusion teaches you how to create sounds that tem from a point you choose, uch as behind a person to trick them. While it is easiest to use your own voice as you are most intimate with it, in time you can make other sounds. Having taken the Imitation class will expedite this process. An advanced technique is creating copies of yourself that follow basic orders that you give them when making them. These 'clones' are incorporeal."
+  },
+  "blue:divination":
+  {
+    "titleText":"Divination",
+    "cost": 6,
+    "imageLink":"",
+    "descriptionText":"Where scrying focuses on the long-term, and in more vague details, Divination is abut the immediate future. You see the future told in vivid details by 'borrorwing' Zoria's eye. he more you know yourself (or the person who's future you are seeing) the farther you can see and the more details. Note that Zoria and Fate have a hate-hate relationship: Fate will try to change things if you look at the same person's future too often. Also note that while difficult, the future can be changed if serious emotions are involved."
+  },
+  "blue:enchanting":
+  {
+    "titleText":"Enchanting",
+    "cost": 6,
+    "imageLink":"",
+    "descriptionText":"How to strengthen objects and even mae them (almost) as good as new. Basic enchantments improves the natural capabilities of the object, for instance making a sword sharper or a torch use less fuel. A beginner's enchantments will weaken with time, but an expert's can last for eons. <br/><br/> Enchantments can also add the effects of certain other spells, if you know any that are compatible. This is a class that is best to take early on in your education, as it opens up new ways to use spells you learn later."
+  },
+  "blue:reflect":
+  {
+    "titleText":"Reflect",
+    "cost": 6,
+    "imageLink":"",
+    "descriptionText":"A class which teaches you how to set up barriers that reflect spells back to the caster. These spells are awfully mana inefficient, and it is oftentimes better to dodge a spell if possibe. Then again, it is wildly satsifying to give someone a does of their own medicine, and there are spells which cannot be easily dodged, if at all. Reflection relies heavily on timing: activate the spell right before you are hit, or you will end up burning through mana so fast you cannot counter-attack. Experts are able to enchant Reflect on walls to protect against spells."
+  },
+  "blue:invisibility":
+  {
+    "titleText":"Invisibility",
+    "cost": 7,
+    "imageLink":"",
+    "descriptionText":"Invisibility is a fickle family of spells. It runs out faster when the person is moving, and if your casting of the spell is poor the object will shimmer in the light. It takes quite a time to master but fortunately there's no ill consequences from messing up the spells, other than it not working or running out too soon. If you plan to use invisibility for mischief on school grounds, keep that in mind: it is not good for sneaking around, but great for hiding in plain sight. Invisibility is much easier to cast perfectly on objects than living beings."
+  },
+  "blue:familiar":
+  {
+    "titleText":"Familiar",
+    "cost": 7,
+    "imageLink":"",
+    "descriptionText":"At the end of the class you wil be in possession of a mage's best friend: a Familiar. You will use the class to research the proper kind of core, find a core, and finally breath life into the core. The type of core affects the familiars personality and body type. Hard crystal for instance gives you defending, stoic and large familiars, whereas a small flaming feather gives you a cute phoenix. Their intellect can range from pet to near-human, depending on the quality of the core you use. Common in all Familiars is some tell that they are magical."
+  },
+  "blue:dispel":
+  {
+    "titleText":"Dispel",
+    "cost": 10,
+    "imageLink":"",
+    "descriptionText":"A class that specializes in the removal of magical properties whether it be blessings, enchantments, illusions, etc. Since it requires highly specific materials to have multiple enchantments, you must remove an old one to apply a new one. While Dispel can remove the magic from wards it will break the item and notify the owner, and you will need cursebreaking to remove curses. Dispel is typically useless against fast-moving attack spells as you must first identify the type of spell used before knowing which Dispel spell to utilize in return."
+  }
+}

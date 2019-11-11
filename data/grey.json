@@ -1,0 +1,72 @@
+{
+  "grey:magic-101":
+  {
+    "titleText":"Magic 101",
+    "cost": 2,
+    "imageLink":"",
+    "descriptionText":"A general class all about magic and spells, how they work and what mana is. You won't be learning any spells, but it teaches theory you could be unfamiliar with. There's a big focus on regerenating mana and dealing with mana sickness: Running out of mana in the middle of a fight is a shameful way to go out. More advanced mages can still benefit from learning techniqques to replenish mana faster. Many do however treat it as a goofing-off class, a time to meet up with friends or to interact with the other sex."
+  },
+  "grey:martial-arts":
+  {
+    "titleText":"Martial Arts",
+    "cost": 3,
+    "imageLink":"",
+    "descriptionText":"A mage who relies on magic for everything is a poor mage. You will more than likely find yourself in a situation of three where magic isn't an option and fisticuffs must be used. You might have run out of juice, be fighting too many enemies or be afraid of collateral damage. In close quearters it can be difficult to fire off spells both rapidly and with accuarcy, as you'll need to dodge blows while chanting spells. In class students will learn fighting strategies and how to fight and win in melee combat, (as well as how to de-escalate situations)"
+  },
+  "grey:blink":
+  {
+    "titleText":"Blink",
+    "cost": 3,
+    "imageLink":"",
+    "descriptionText":"Learning to perform short-range teleportation. Safe distances are up to 50 meters, perfect for its main purpose of dodging spells or relocating during combat. While one certainly can jump further than 50 meters, side effects include passing out and ripping your cloths to shreds. Blink works through walls but be careful that you know how far to jump. Blinking into a wall hurts profoundly. You don't get stuck halfway through, instead you get smacked into a hard wall at breakneck speeds."
+  },
+  "grey:jewelcraft":
+  {
+    "titleText":"Jewelcraft",
+    "cost": 4,
+    "imageLink":"",
+    "descriptionText":"Learn to create pure jewels out of common rocks. The quality of the jewel depends on the size and purity of the rocks, and the time you invest in magicaly chiseling the stone. Once you've made the gemstone, you can store mana inside of it, to either instantly cast the spell you chose or to toss it like a make-shift alchemical bomb. Gravity bombs are quite popular. Naturaly you will need to know the relevant spell if you want to use the gems for making bombs. Jewels are consumed upon use and offer a huge boost if one plans ahead."
+  },
+  "grey:levitation":
+  {
+    "titleText":"Levitation",
+    "cost": 4,
+    "imageLink":"",
+    "descriptionText":"Cause objects to float in midair, defying the laws of physics for a period of time. Levitation magic is a focused version of Gravity, where you affect a single object rather than an area. It is generally far harder to make living beings (who struggle) float. Making an object float is not the most difficult part of the class. That would be changing the altitude of the object by changing whether gravity points up or down. Knowing Force magic tends to speed up the learning preocess up, and if the two were combined you could get proper telekinesis."  
+  },
+  "grey:detection":
+  {
+    "titleText":"Detection",
+    "cost": 4,
+    "imageLink":"",
+    "descriptionText":"There are many spells which can't be seen with the naked eyes, but almost all still leave behind a kind of magical residue that can be detected. Detection teaches just that: finding the faint traces, stitching the fragments together and learning what spel was used. It rarely tells you the purpose or what the spell was used on. Detection is commonly used to solve crimes. Detection can NOT be used to find more wards, old curses, or blessings because Detection relies on looking for recent mana expenditures in an area. It will however work if they were very recently cast."
+  },
+  "grey:telepathy":
+  {
+    "titleText":"Telepathy",
+    "cost": 4,
+    "imageLink":"",
+    "descriptionText":"In telepathy you will learn how to establish a mental connection to another person. It is possible to connect to multiple at a time, but many develop migraines doing so. When you establish a connection - unless you are a pro - the other person will feel an itch. Once established you can talk freely to the other person. You <i>can</i> eavesdrop on thei surface thoughts, but mindreading isn't covered by the curriculum as it is deemed unethical. Due to to the great difficulty to discover others using telepathy, it is often (mis)used to cheat on exams."
+  },
+  "grey:mana-channeling":
+  {
+    "titleText":"Mana Channeling",
+    "cost": 5,
+    "imageLink":"",
+    "descriptionText":"A class where one learns to channel mana throughout their own body rather than project it outward through the use of spells. Directing mana is challenging but can allow one to perform superhuman feats: Scale walls by binding you feet to the walls, punching through walls and send them flying. Mana channeling does have a reputation for causing damage from prolonged use, so care must be exercised. A bonus of Mana Channeling is that raw mana cannot be cancelled since 'Anti-magic' relies on countering specific spells."
+  },
+  "grey:force":
+  {
+    "titleText":"Force",
+    "cost": 6,
+    "imageLink":"",
+    "descriptionText":"Plan old pushing people and objects away or pulling them towards you. Learning the right amount of force to apply can be tricky: you do not want to break something, but you also want to use enough to actaully push it. That is why the first classes will be strictly using plastic vases. Force has no elemental properties making it neither specifically good or bad against any enemy. Most people in the class with be people unfamiliar with magic... or they want an easy A."
+  },
+  "grey:gravity":
+  {
+    "titleText":"Gravity",
+    "cost": 10,
+    "imageLink":"",
+    "descriptionText":"Learn how to control gravity in a small area. Make it stronger to stop people from moving easily or make it weaker to have people fall out of surprise. Gravity is a group of extremely powerful spells that one must be careful with as its is easy to make the effects too strong. Particularly crafty mages can create multiple 'gravity wells' that have their own gravity fields that pull people and objects alike either away or towards them. This is a hard spell to master, but exceptionally confusing to fight against."
+  }
+}

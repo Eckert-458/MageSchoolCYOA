@@ -1,0 +1,63 @@
+{
+  "mysteries:lounge":
+  {
+    "titleText":"Lounge",
+    "imageLink":"",
+    "descriptionText":"Each week the faculty of Migorn create a complex muti-part puzzle for the students to solve. You and a group of friends can team up to solve this puzzle, testing both your intelligence, knowledge, and skills as a mage. By completing the puzzle in full, you gain access to the mythical Lounge, a special room that changes locations every week. Inside there will be snacks from all corners of the world, as well as fun activities to pick from. One week might be a pool party, while another week might have an all you can eat buffet featuring exotic foods. <i>In theory you could stumble upon the room at random, but given the size of Migorn the odds are exactly nil.</i>"
+  },
+  "mysteries:catacombs":
+  {
+    "titleText":"The Catacombs",
+    "imageLink":"",
+    "descriptionText":"Deep beneath the Bishop dorms ie the catacombs. Keys aren't given out to just anybody but you came accross one. Skeletons lounge about, and ghosts wail, with many visitors giving up after only exploring the first few rooms. You'll need nerves of stell, or plenty of Black classes, to not cower in terror like the others. If you do manage to persevere you will find the ghosts come to respect you: The trickster will be too bored of you to scare you, and more helpful ghosts can lead you to secret areas with items lost over the years. Remember to always check for mimics!. Do be careful, as the catacombs are very extensive, and not everything down here is friendly.."
+  },
+  "mysteries:hidden-library":
+  {
+    "titleText":"Hidden Library",
+    "imageLink":"",
+    "descriptionText":"Migorn has an impressive library, so vast that maps are posted to help students find their way back after being buried in a book for hours. While visiting the library one dy, hushed voices coming from seemingly nowhere will direct you down hallways with progressively more cobwebs until you find an abandoned room. As you walk, the voices become louder, but hush completely once you walk inside. In this room with naught but a cushy chair and books stacked high you will find ancient scrolls in an unfamiliar language. When you try to read texts, the words words will begin to make sense and you will uncover hidden truths and find forgotten spells."
+  },
+  "mysteries:study-hall":
+  {
+    "titleText":"Study Hall",
+    "imageLink":"",
+    "descriptionText":"Every now and then, you will find a room that seems out of place. The door is never around when you are walking with someone. If you enter , you will find a large plain room with unoccupied desks. On top of the teacher's desk are a stack of paper with a single pen, with a spectral woman(?) sitting behind it. They stand immobile, facing away. This mute teacher will help you study for any class, being able to pull notes out from a seemingly bottomless briefcase. When you get stuck and stare at her 'face', ideas rapidly begin to flow into your mind. Time passes slower inside while you study: an hour inside may be as little as twenty minutes outside."
+  },
+  "mysteries:vending-machine":
+  {
+    "titleText":"Vending Machine",
+    "imageLink":"",
+    "descriptionText":"There's an elusive vending machine, unlike any other on the campus: it accepts any type of payment that can fit inside the slot, and not just money - though, trying to cheat it with fake money results in a (mostly) harmless shock. Upon paying and pressing the button, a random snack or beverage will be dropped down the chute and can be consumed. Perhaps it is five plain old chocolate bars, or maybe it is a packet that can change any food into becoming fizzy, or even two magical gummy cowboys having a shoot off, before turning back into normal delicious candy. The machine switches locations when you look away after use."
+  },
+  "mysteries:beautiful-mirror":
+  {
+    "titleText":"Beautiful Mirror",
+    "imageLink":"",
+    "descriptionText":"While walking around campus one day you trip over a peculiar item. Said item turns out to be an intricate and delicate mirror, with no owner in sight. You quickly discover that upon staring into the mirror while thinking of someone, you will see a memory played out as if you were in their shoes. These memories usually concern some problem or are painful. As the events play out before your eyes you will begin to feel the emotions they did at the time: love, anger, joy, heartbreak, all of their emotions will be laid bare before you. The closer you are to a person, the more private the memories will be and you will be able to view for longer."
+  },
+  "mysteries:eternal-student":
+  {
+    "titleText":"Eternal Student",
+    "imageLink":"",
+    "descriptionText":"There is a student a Migorn that takes the exact same classes every year. You never noticed them before, and if you did they quickly slipped from your mind. But now you do. Teachers don't seem to care much when you point it out, and in fact it almost seems like tradition to continue to have them in the same classes. Truth is this student died before graduation, and now lives at Migorn in an abandoned room, attending classes each day with everyone else. You needed know how to communicate with spirits and ghosts to talk to the student. <br /><br /> If they could pass their exams, would they be able to move on?"
+  },
+  "mysteries:imposter":
+  {
+    "titleText":"Imposter",
+    "imageLink":"",
+    "descriptionText":"Migorn faculty have informed the students that anyone acting strangely may be a doppleganger, and to notify the teachers if you suspect someone. Due to a misunderstanding, you saved the doppelganger from getting caught. Ever since then, you feel as though some people around you are acting oddly - perhaps a cute girl is staring at you through lunch. A lot of students are asking you for directions, far too many to be coincidence, especially when most of them ask if you can walk with them. Eventually it will be revealed these are all the doppelganger (to no surprise).  The doppelganger is actually not that good of an actor, and blushes easily when flustered or caught in the act."
+  },
+  "mysteries:slime-pet":
+  {
+    "titleText":"Slime Pet",
+    "imageLink":"",
+    "descriptionText":"While exploring the large wilderness surrounding the campus, you find a blue ooze, a slime. As it watches you it tilts its 'head' to the side showing curiosity, not hosility. The sime heads towards you, nuzzling against your eg like a cat might do. From then on the slime began following you around, showing affection as well as a blob of goo can. As house pets and familiars are allowed at Migorn there is no issue with having a slime pet, but others may be cautious of it. The core of a slime contains a strong acid, and it eats by dissolving food in the core. This particular slime only has a weak acid: it will sting to stick your hand in its core but it won't dissolve unless you keep it there overnight."
+  },
+  "mysteries:lady-of-the-lake":
+  {
+    "titleText":"Lady of the Lake",
+    "imageLink":"",
+    "descriptionText":"Rumors have been spreading about a beautiful woman in the forest lake, who beckons people to go near her. While exploring the school campus, you find yourself at this very lake, as she calls out to you by name. The lady of the lake is a beautiful spirit who is bound to the lake. She is very lonely, and desperately seeks attention, offering you small trinkets in exchange for simply spending time with her. Dispite her having very little interaction with others, she is very funny, and likes to practice her jokes when alone. She can be awkward at times from all othe isolation She'll eventually fall for you if you visit her consistently, though beware that she is prone to jealousy."
+  }
+
+}

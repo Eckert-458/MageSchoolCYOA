@@ -1,0 +1,72 @@
+{
+  "black:nether-talking":
+  {
+    "titleText":"Nether Talking",
+    "cost": 2,
+    "imageLink":"",
+    "descriptionText":"How to talk to the recently deceased, or stubborn ghosts that won't pass on. Not only is it a cool/creepy party trick to convice a ghost to posses someone, it can also lead to closure in those who miss a loved one. There's lots of ghosts to be gound in the Bishop dorm that love telling stories of their time at the school. They also know where all the peepholes are and if you befriend them, they can assist in various ways."
+  },
+  "black:offensive-wards":
+  {
+    "titleText":"Offensive Wards",
+    "cost": 4,
+    "imageLink":"",
+    "descriptionText":"Offensive wards work similarly to landmines: They are only activated when someone steps on or near them. They are designed to hold down an area or protect your house, and either harm an intruder or alert you to their presence. If you want to make them extra spicy they can be enchanted, if you have the necessary classes. As only recently placed wards can be found with Detection magic, they easily catch invaders off guard. You need specialized magic to see them and trying to remove the wards still alerts you of tampering."
+  },
+  "black:darkness":
+  {
+    "titleText":"Darkness",
+    "cost": 5,
+    "imageLink":"",
+    "descriptionText":"A class teaching you how to manipulate and even summon darkness. You learn how to blink from one spot of darkness to another (within eye sight), to intensifying shadows and even making them spread out. You'll be able to attack physically through one shadow and comes out the other. It can hurt quite a bit if the shadows are destroyed by light while  you do this. If you have the talent you can learn a high level spell of shrouding yourself in total darkness and becoming incorporeal."
+  },
+  "black:curse-object":
+  {
+    "titleText":"Curse Object",
+    "cost": 5,
+    "imageLink":"",
+    "descriptionText":"An offshoot of Curses that specifically focused on cursing items ~ similar in theory to enchantments, though curses are hidden and are only activated when trigered. Each curse you lay has a different trigger scenario, such as 'is worn or 'is removed from the room'. Curses range from being inconvenient such as 'can not get a song out of their head' all the way to harmful effects such as 'cannot let go unless allowed to'. Strong curses give off an inexplicable feeling of something being wrong with it. This curiosity can be abused."
+  },
+  "black:necromancy":
+  {
+    "titleText":"Necromancy",
+    "cost": 6,
+    "imageLink":"",
+    "descriptionText":"Learn how to command the bones in the ground to reform and reanimate, and breathe new life into them. Skeletons have low intelligence (unless you are lucky enough to find dragon bones), and need simple, direct orders. Their work ethic makes up for their inability to think: they do not stop until ordered to, or each bone is removed from the corpse.<br/><br/> Necromancy is useful for overrunning an enemy with lots of skeletons, but you will want a backup spell or two in case the enemy breaks through."
+  },
+  "black:summoning":
+  {
+    "titleText":"Summoning",
+    "cost": 6,
+    "imageLink":"",
+    "descriptionText":"Whereas spirits are mainly benevolent, demons are mostly malevolent. Whether they do what you ask them depends on what they gain from your exchange: if you aim to cause mischief they are all for it, but they will spit fire on you if you ask them to do your homework. You will learn how to summon multiple types/races of demons but to bind them to your will is another class. You can dispel any demon you have summoned (unless they seriously out power you), but a crafty demon can run away and cause havoc."
+  },
+  "black:binding":
+  {
+    "titleText":"Binding",
+    "cost": 7,
+    "imageLink":"",
+    "descriptionText":"Learning how to bind a demon, or even a spirit or ghost to your will. This process is only pain free for demons, who willingly let themselves be bound in return for something. This 'something' can be your downfall. A binding lets you tap into the creature's strength or magic, for instance growing demonic wings if you bind an imp or being able to see blood (even through illusions and invisibility spells) by binding a vampire. Even when you are not using their power there will be a demonic aura surrounding your body."
+  },
+  "black:curses":
+  {
+    "titleText":"Curses",
+    "cost": 7,
+    "imageLink":"",
+    "descriptionText":"Curses are roughly speaking any harmful effect you can apply to a person using magic. They can be seen as the counterpart to Blessings. Most are long-range, and the powerful ones require a strand of hair or a personal item. This has led to other mages looking down at those using curses and calling them spineless. While straight-up murder and similarly horrendous curses are not taught in class, you will be surprised how easy it is to convince the professor to teach you off-the-books if you provide a compelling offer."
+  },
+  "black:leeching":
+  {
+    "titleText":"Leeching",
+    "cost": 7,
+    "imageLink":"",
+    "descriptionText":"Leeching is a group of spells that revlve around stealing another mage's stores, or healing yourself by sapping stamina from any living being. Once you've fired off your Leeching spell the target imediately feels the effect; there is no subtlety and it is child's play to follow the flow of mana back to you. WHile the spell itself is fairly simple to break it does take time to do so. You have to be aggressive to make sure your opponent cannot dispel your Leeching spell. If you can do this it is an easy win as you grow stronger while they grow weaker."
+  },
+  "black:puppeteering":
+  {
+    "titleText":"Puppeteering",
+    "cost": 10,
+    "imageLink":"",
+    "descriptionText":"Unlike other classes this one is taught at midnight and there will be no official record of you attending. The spell lets you take over another person's body and use it like it was your own, while leaving yours in a comatose state. Masters can leave the victim feeling in control, that they are the ones doing and saying what you are making them say. To perform the spell you must have a personal belonging of high value to them. Puppeteering takes insane amounts of concentration and silence to perfom, can be broken simply by touching the caster."
+  }
+}

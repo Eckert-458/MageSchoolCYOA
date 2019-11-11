@@ -1,0 +1,172 @@
+{
+  "friends:mary":
+  {
+    "titleText":"Mary",
+    "classText":"Lich",
+    "imageLink":"",
+    "descriptionText":"Mary is one of the more beautiful students attending Migorn, and is something of an idol at Migorn. Her family is fairly rich, and because of this she will often buy gifts for her roommates. Mary is practicing to become a Lich, taking all the Black classes except Puppeteering. She also dabbles in illusions and nature magic. She loves the wilderness, and animals seem to have an unnatural attraction to her. It is not uncommon for her to spend all day in the forest and watching the animals all day. On occasion she brings food to them, too. <br /><br /> Mary is fairly outgoing and impulsive, never afraid to say she likes something or someone. If she truly loves someone, she can be very affectionate. Outside of love, she is generally very blunt, and will give her honest opinion on almost anything she is asked. She is not a fan of sunny days, as it hurts her eyes. She will generally only go outside on rainy or cloudy days, citing that things feel more peaceful when the weather is like this anyhow."
+  },
+  "friends:caelica":
+  {
+    "titleText":"Caelica",
+    "classText":"Battlemage",
+    "imageLink":"",
+    "descriptionText":"Joining Migorn to better increase the potency of her weak magic, Caelica takes her training her seriously. She is constantly pushing herself to the limit in an attempt to become stronger. In fact, once classes are over she will usually head out and train even more. It is not uncommon for her to suffer from mana fatigue every few weeks. If you are her roommate, she may ask if you could watch her train, just in case she passes out again. If you say no, she will leave it at that and go alone, but if you say yes you will see firsthand just how dedicated she is to her training. She has a surprising amount of agility and strength, surpassing many humans and even quite a few beastmen. <br /><br /> She won't normally go out of her way to help others she does not know, but she will drop everything if it means protecting those that she loves. She mainly focuses on learning martial arts and body channeling, and finds that she has the most fun when facing an opponent that is just as strong as her."
+  },
+  "friends:gabe":
+  {
+    "titleText":"Gabe",
+    "classText":"Priest",
+    "imageLink":"",
+    "descriptionText":"A priest in training, Gabe comes from the island of Formiel. Due to his large size and clothing, Gabe is easily spotted in a crowd. He is almost never seen without his mask on, but this doesn't seem to be a tradition from his home island. He takes life pretty easily and will take naps often. He has taken all of the white classes, and has some basic fire magic, but claims he only picked the class on a whim to light up dark rooms and caves. He doesn't take the fire class seriously, and is passing the course by the skin of his teeth. <br /><br /> Gabe is a whiz when it comes to cooking delicious foods and his jokes are funny. Every now and then he may throw some comedic jabs. He is also pretty good at being on the receiving end of things, and won't mind any fat jokes made towards him. While he hasn't seen that much of the world, he is an adventurer at heart, and is surprisingly adept at getting used to living conditions. He can take a real beating too, but he is fairly average otherwise."
+  },
+  "friends:carrie":
+  {
+    "titleText":"Carrie",
+    "classText":"Witch",
+    "imageLink":"",
+    "descriptionText":"Carrie may seem like a good natured and serious student, but on the inside, sh is anything but. She is spiteful and liable to hold grudges against those she feels has wronged her. She also has a loving side, and is prone to falling in love. Going out for a stroll, studying together, and even attempting to build a shrine out of her lovers used trash all seems like normal behavior to her. She's extremely possessive, and will go out of her way to curse, imitate, or posses those who get too close to her crush. She is willing to pursue any classes her crush asks of her. <br /><br /> If she falls in love with you, she will try her hardest to cut out some of the weirder behavior should you wish it. Love her back, and sh will take care of all your needs. Her favorite thing to do is to write romance novels, typically self-inserting both you and herself as the main characters. No matter how much she loves you, she will try and deny you access to the novels, stating that it is too cheesy and sappy. (It is.)"
+  },
+  "friends:alice":
+  {
+    "titleText":"Alice",
+    "classText":"Wizard",
+    "imageLink":"",
+    "descriptionText":"You have manage to obtain a teacher as a roommate. The staff at Migorn hates paperwork and would prefer not relocating her, and so Alice has decided to make the best of it. She believes that by rooming with you, she will be able to build a better relationship with her other students. She may be brand new to working in a classroom, but she has knowledge in a lot of different fields. Despite her natural talent, she has decided to teach Magic 101. Even if you don't take Magic 101, she will be able to give you a few friendly pointers on how to better manage your mana. She may even give you a few private lessons for general studying if you need the extra help. If you do take her class, be prepared to have her call your name a lot. She is generally very kind, and friendly, the type of person who's always willing to lend a hand to those in need. <br />Note: She will get defensive about her outfit if you ever bring it up under any context.",
+    "restrictionText":"Must pick her to be your roommate."
+  },
+  "friends:rodmei":
+  {
+    "titleText":"Rodmei",
+    "classText":"Defender",
+    "imageLink":"",
+    "descriptionText":"Rodmel is one tough cookie. He can block and deflect spells most other mages his age would have trouble with. Unfortunately, Rodmel is not very fast, and has trouble keeping up with fast paced attacks that come from multiple angles. Offensively he is below average, and in a duel he will try to wear out his opponent by forcing them to use up all their energy before he goes in for the final strike. He relies on defensive spells more than anything else. <br /><br />He is an extremely loyal friend, and will do whatever it takes to keep his friends safe, even going so far as to risk his own life to save those he holds dead. His loyalty is so strong that he could get up even when a normal ma would have already passed out from the pain. Of course at this point you shouldn't expect him to be able to do very much, but it might buy you and your group some time. Rodmel can be very charismatic, but finds it hard to keep a clear head around women."
+  },
+  "friends:glamir":
+  {
+    "titleText":"Glamir",
+    "classText":"Sorcerer",
+    "imageLink":"",
+    "descriptionText":"An up and coming star in Migorn, Glamir specializes in the elements of ice, water, and electric, while also learning some blue spells like reflect and dispel. She is a very capable student, and can definitely give you some minor advice so you can get a bit more control. She is also great at studying, and wouldn't mind you joining her so long as you stay on topic. She is refined and feminine, enjoying calm peaceful days where she can just sit around. Despite her easy going personality, she is one of the better mages at Migorn. <br /><br /> If you ever visit her, she will brew you a cup of tea, and almost always seems to have a couple of small pastries. She is fairly outgoing, but dislikes larger crowds. She feels immense pressure from her parents who want her to reach the top of her class, yet she doesn't care as much, and wishes she didn't have such a high affinity for it. Don't prod her much about her problems, and you will get along fine."
+  },
+  "friends:pelama":
+  {
+    "titleText":"Pelama",
+    "classText":"Lich",
+    "imageLink":"",
+    "descriptionText":"Pelama is a powerful lich, specializing in darkness, summoning, and necromancy. It would be safe to say she is the top student in these fields. Despite this, most of the other students at Migorn tend to avoid her. It is not uncommon to hear her speak in riddles or laugh maniacally like an over the top evil villain. Despite how she is actively avoided, Pelama doesn't seem to care all the much about what others thing, and will keep up her act. She is not very good at studying, and will actively go out of her way to slack off in any class that is not darkness, summoning, or necromancy. <br /><br /> If you ever decide to befriend her, she will give you a cute nickname which will seem out of place for her. This isn't out of love, as it is merely her way of saying that she is thankful to have you as a friend. For then on she will invite you on outings, supposedly so you can obtain the power to establish a new world order. If you ask her way she acts so over the top, she will stutter and hastily try to change the topic."
+  },
+  "friends:sil":
+  {
+    "titleText":"Sil",
+    "classText":"Spellblade",
+    "imageLink":"",
+    "descriptionText":"Sil is an aspiring mage, studying to become a force to be reckoned with, one who could end the tyranny and blight that plagues the world. He is extremely good when it comes to studying and understanding the principles and theory of magic, but has trouble casting spells in actual practice. Because of this he takes his studies very seriously, and will often ask you or others for help. He would be extremely grateful if you could teach him, and will hook you up with his notes and if you are lucky, maybe a few miscellaneous spells he has managed to find in the library. <br /><br /> Sil may be a slow learner, but as he grows older he will quickly grow in power as he gets the hang of magic and learns more complex spells. Eventually he may even make his own. His favored weapon is the bow and arrow, as he likes to enchant each arrowhead individually, and loves the chaotic nature of pulling an arrow out at random. He also has a knife at his side, but he is not that proficient in close range combat."
+  },
+  "friends:lynne":
+  {
+    "titleText":"Lynne",
+    "classText":"Sorcerer",
+    "imageLink":"",
+    "descriptionText":"Lynne is a powerful oracle excelling greatly at divination and scrying, and has some proficiency with electricity. She has a familiar in the shape of a bird made out of clay. Lynne doesn't normally rely on her abilities as an oracle, and will only use her powers when asked, or when on a quest or a mission. Despite this, she is extremely perceptive and can easily tell when someone is lying, as well as their general emotions. Almost nothing gets past her, and because of this Lynne has grown quite bored. She eagerly anticipates anything new or exciting, and is very willing to try out new activities. <br /><br /> Lynne isn't really one for combat, and instead likes to be on the sidelines directing others with her knowledge and foresight. She is amazing at figuring out other strategies, and considers battle to be like chess, with herself as the king. She really likes nature, and knows how to survive in the wilderness. If you can be spontaneous and keep her guessing you will be one of her best friends."
+  },
+  "friends:yuuko":
+  {
+    "titleText":"Yuuko",
+    "classText":"Priest",
+    "imageLink":"",
+    "descriptionText":"Yuuko wants to help people, and has decided to train in white magic to become a priestess. However many seem to think her personality clashes with her ideals. Yuuko is not your typical shrine maiden, she is abrasive, hotheaded , and prone to starting fights for lesser reasons. If anyone dares to make fun of her or her friends, she will retaliate with insults or her fists. She doesn't have much offensive magic, and mainly focuses on the basics of white an blue magic, while letting her fists do the talking if she ever needs to. <br /><br /> Yuuko's lack of magic doesn't slow her down in fights and she is very efficient in combat. Yuuko also happens to be absurdly courageous. It is extremely hard to frighten or break her. If you befriend her, don't expect to make many friends. Yuuko also doesn't have much modesty and may walk around with nothing but a towel or a loose shirt and panties in her dorm. She can be very playful, but will get offended from inappropriate behavior."
+  },
+  "friends:ventkalo":
+  {
+    "titleText":"Ventkalo",
+    "classText":"Druid",
+    "imageLink":"",
+    "descriptionText":"Ventkalo is an explorer at heart. He wants to see all that this world has to offer, and is attending Migorn to fulfill his dreams. He wants to learn every green class, and is especially adept at talking to animals and spirits. He also knows some earth magic, as well as how to use the spear. Venkalo is a bit messy, and will sometimes track mud into a building while he absentmindedly talks to himself. He enjoys the thrill of combat when he's up against large or exotic beasts.<br /><br />He is a friendly guy, and will usually do little things for you as a token of his friendship. He makes trophies out of those he slays, and may do the same for you should you ask. He has a keen eye for danger, and seems to be prepared for almost any situation, especially when it comes to food and water. He finds it hard to stay in one place for too long, but this restlessness fade as he grows older."
+  },
+  "friends:violet":
+  {
+    "titleText":"Violet",
+    "classText":"Spellblade",
+    "imageLink":"",
+    "descriptionText":"After struggling for what felt like ages with ordinary combat spells, Violet eventually gave up on them: she doesn't have it in her to study for hours to get a pronunciation just right, or the quick wits to alter a spell on the run. Instead she has found a love for enchantments: She has all the time in the world to get the spells just right, and she loves feeling prepared for a situation ahead of time. There is less risk to freak out and be paralyzed by fear in the heat of the moment, not that she's ever felt that. When she fights, she moves effortlessly and without needing to consider her actions. <br /><br /> Unfortunately, that lack of consideration also applies to her mouth. She is too quick to say things that she may end up regretting only a moment later, and gets in trouble for it regularly. Thanks to her physical prowess these incidents rarely end in fights. Her being silent is the most obvious sign that she is terrified of mucking things up by saying the wrong thing."
+  },
+  "friends:pyhno":
+  {
+    "titleText":"Pyhno",
+    "classText":"Alchemist",
+    "imageLink":"",
+    "descriptionText":"When Pyhno discovered she could do basic magic, she made her whole flock so proud of her. SHe adored the attention and started associating magic with smiles and happiness. When she feels sad, she casts beautiful fireworks, and when she feels glad she does the same. When you or any of her friends feel down she will put on a magic show and finish it off with a soft wing-hug and sweet if strange bird-songs. If you are doing too terribly, she will show off her nifty conjuring spell where she creates juice-boxes filled with wine. It is a strong drink and she has yet to figure out how to tweak the spell to make it less potent. <br /><br /> Unfortunately she has been struggling quite a bit with more advanced spells: the language of magic is tricky to her and especially spells that use different sounding words are hard to pronounce. She practices hard on those spells she can speak easily, hoping that by becoming a master of these she can compensate for her weakness."
+  },
+  "friends:mabel":
+  {
+    "titleText":"Mabel",
+    "classText":"Druid",
+    "imageLink":"",
+    "descriptionText":"Mabel took the phrase 'Survival of the fittest' a bit too close to heart: he view just about anything he can as a competition. There is a winner and a loser, it is as simple as that. It has made him incredibly strong and gain rivals, but no real friends. He is also not big on sharing as vulnerability could be used against him. Unfortunately it means he often feels on edge: he always must know where the exists are and has formulated detailed plans for how to deal with any king of attack. If you are ever in trouble he knows just how to get out of it, and he will be the first person to throw punches if needed. <br /><br /> His competitiveness and striving for greatness will surely rub off on you and any other friends you have made. If no one else does it, he will naturally try to be the leader of the group, but he can be put in his place. All it takes it beating him in a duel. He even accepts an unfair duel because that is how life works: you cannot always pick your battlefield. If you make him submit to you, he chills out a bunch."
+  },
+  "friends:jewels":
+  {
+    "titleText":"Jewels",
+    "classText":"Witch",
+    "imageLink":"",
+    "descriptionText":"With a few friends growing up thanks to parents that dabbled in darker magics, Jewels spent most of her time studying magic. She wasn't too interested in the most topics of magic: but became positively ecstatic when she learned about familiars. Being able to make her own friend filled her with joy. She got to work and made Mouse, a basic and weak familiar with only an owl feather for a core. It has the intelligence and power of a regular owl, but doesn't age and is one of her closest friends. <br /><br /> Despite taking some White classes, she still felt she should get the Witch title, since that is what her parents are. She is taking both Offensive and Defensive wards, as well as Curse object. In her own words, 'there is no such thing as being over-prepared'. If you share a room with her, accept that she will be putting up wards already on day one. Her parents have been raided by 'do-gooders' before and she simply doesn't feel safe without the wards."
+  },
+  "friends:moire":
+  {
+    "titleText":"Moire",
+    "classText":"Wizard",
+    "imageLink":"",
+    "descriptionText":"Since Moire was a little girl she has wanted to do good in the world, and make her parents proud of her. Growing up was difficult but once she learned levitation spells it got a whole lot easier. She doesn't trust her spells enough to use them on her head, not that any have failed in the past. She is just understandably careful about her head. <br /><br /> At first she didn't want to learn any Red spells because she does not want to fight at all... but then she remembered it is hard to defend yourself when you head can accidentally fall out of your hands. Sh is squeamish from even thinking about hurting someone, and her progress in the Red classes are suffering. She is doing excellently in all other classes, but not the ones where others are her target. She prefers practicing in private because when she gets in the zone she forgets about the outside world. Bringing her back out of the zone usually results in her jumping and knocking something over, and getting embarrassed."
+  },
+  "friends:savvas":
+  {
+    "titleText":"Savvas",
+    "classText":"Sorcerer",
+    "imageLink":"",
+    "descriptionText":"It was not Savvas' own idea to study magic: he wanted to study the blade, as he had up until then. His father insisted, saying that knowledge is how he would get ahead in life. He go into Migorn through nepotism mostly, as he hasn't practiced his magic in a long time. Not since his mother, who used to teach at Migorn, left him and his father. She was a Priest which he always thought was puzzling considering what she did to him and his father. The day she left he vowed he would be a better parent and partner than she was. <br /><br />Savvas takes his time at Migorn seriously even if he is taking fewer classes than he can. He feels many of the high-credit classes are too far above his level. He spends sleepless nights worrying over exams and feeling behind. It doesn't help that he relies on his physical abilities so much in combat practice: he doesn't use spells to dodge and disarm his opponent, only his raw strength. He has been offered private tutoring, but his pride would be wounded."
+  },
+  "friends:serene":
+  {
+    "titleText":"Serene",
+    "classText":"Sorcerer",
+    "imageLink":"",
+    "descriptionText":"It is common for would-be-mages to go to a magical academy when they are around fourteen to sixteen years of age. Serene however only joined the school at the age of nineteen. Her late joining stems from roaming the world with a close friend once the two felt they could defend themselves. The journey ended up lasting longer than planned as they joined up with bandits against Serene's better judgment. She eventually left to join Migorn as her friend stayed. <br /><br /> With age comes wisdom and power but sadly Serene developed a bit of a superiority complex. Combat classes will progress too slowly for her, and she has no patience for students that waste the teacher's time: she will stare daggers at any that asks a question to the teacher that seems so below her own abilities. Naturally sh is not popular with the slower students, but she has gained a group of fan girls that vie for her approval. There is even infighting among her fans for her heart, and they send her love letters too."
+  },
+  "friends:juniper":
+  {
+    "titleText":"Juniper",
+    "classText":"alchemist",
+    "imageLink":"",
+    "descriptionText":"What Juniper lacks in size she more than makes up for by the size of the fight in her heart. She knows how to fight back with mean comments: joke about her stature and she will roast you hard enough to make you seek medical attention. Though most of the time she ends up looking adorable, the way her cheeks puff up and her voice goes shrill when she tries to respond. That's why she has learnt to use curses and poisons to play the long game against bullies instead. It does upset her she can't get the Priest title thanks to those classes...but how can a trickster NOT get them? They are too much fun! Oh, to see some proud rich boy's eyes fill with fear when he realizes she put something in his juice and he suddenly has to rush off... priceless. <br /><br /> Ultimately Juniper would like to roam the world with an adventurer, get strong together and eventually fight some big bad villain. She hopes her Alchemy title won't affect her odds, but maybe she could find a partner while at Migorn."
+  },
+  "friends:damien":
+  {
+    "titleText":"Damien",
+    "classText":"Lich",
+    "imageLink":"",
+    "descriptionText":"Ranging from the war torn lands to the north, past the great sea, it was only natural that Damien would develop an interest in the occult. His best friend is the talking skull he keeps on his desk, the first undead he successfully reanimated. While Damien is not prone to talk much, his skeleton sure does, to a mortifying degree. Talk to it when Damien is not around and it will spill all his secrets. It has no filter. It will happily share all the things he has said about Frieda, including the strange comment on wanting to brush her luscious hair. <br /><br /> Despite keeping to himself during classes and outside school he still has several girls after him. His shyness around girls gets misinterpreted as him being 'mysterious'. He is always doing his best to act stoic when he gets 'assaulted' by a cheery girl that wants to hang out. In reality he wants to blurt out how hot she is and how he can't stop staring when she moves; but he is smart enough to ask to be excused and leave."
+  },
+  "friends:frieda":
+  {
+    "titleText":"Frieda",
+    "classText":"Priest",
+    "imageLink":"",
+    "descriptionText":"Hailing form the North where only the strong don't get picked up by wyvens and gryphons, Frieda is a mad powerhouse. Ultimately the decision to become a mage and not a warrior stems from her desire to heal wounded allies, and her strong religious views. She must always read in her scriptures before bedtime, and falls asleep hugging her book with a smile. She dislikes being called a zealot, which she does often due to the rituals she must follow: She may only eat when all others have and must put the needs of others before her own. Denying a stranger hospitality is one of the greatest sins, as is showing weakness. <br /><br />This last point particularly bothers her: she feels anxious when out of her armor, as if everyone is staring at her and commenting on her. When armor-clad she feels strong, invulnerable and ready to face any danger. As such she wears her armor whenever possible. When she cannot, she wears thick clothing that shows no skin and a hood to cover her head. "
+  },
+  "friends:zieki":
+  {
+    "titleText":"Zieki",
+    "classText":"Defender",
+    "imageLink":"",
+    "descriptionText":"When Zieki started showing signs of being able to cast magic she didn't think much of it. Why would she need magic when she can breath fire and fly with her wings? She can fight just fine with her claws, and the idea of being a hero was not on her mind. Still, going to Migorn was her best chance of meeting people that don't have dragon blood in their veins, and those old farts are too lazy for her. She misses the feeling of being challenged, being driven to get stronger, faster. The banter between rivals and being proud of your own achievements. Of course she is mainly into physical challenges, not those requiring reading dusty books. <br /><br /> As is common with most half-dragons, they are slow to build trust with non-dragons. Once you are friends she will protect you as fiercely as she would a hoard: An insult or attack on you is an attack on her, and she won't let that slide. You will know she treasures you if she ever offers to show you her hoard."
+  },
+  "friends:kriras":
+  {
+    "titleText":"Kriras",
+    "classText":"Wizard",
+    "imageLink":"",
+    "descriptionText":"You will often see Kriras wandering the halls, mumbling to himself about spells and incantations. He is too deep in thought to notice anything else going on which often leads to him wandering where he is not supposed to go. Like the time he stumbled into a girls' locker room and discovered some of them were less than happy. He did get some smiles though, and a few weird letters he didn't want to respond to. <br /><br />After graduating Kiras is hoping to continue studying magic. Inventing new spells and knowing other uses excites him. It is why most of his classes cover the basics of all fields, so he can find the best field to specialize in: whether that is necromancy or making automata is not so important as discovering new things. Having someone write a book over his life and accomplishments is Kriras' biggest wish, not that he would ever admit to it. No, he would only focus on how noble his goal is and pretend not to blush and gush inside when others call him a genius."
+  }
+
+}

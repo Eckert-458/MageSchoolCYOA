@@ -1,0 +1,20 @@
+{
+  "living-conditions:single":
+  {
+    "titleText":"Single",
+    "imageLink":"",
+    "descriptionText":"You will be living alone for the whole three years your education lasts. While it does mean you get privacy, don't have to deal with snoring, and have plenty of room to yourself; it can get lonely at times."
+  },
+  "living-conditions:roommate":
+  {
+    "titleText":"Roommate",
+    "imageLink":"",
+    "descriptionText":"You will be sharing a room with one of your friends. Try not to goof off too hard, and share the cleaning evenly! Make sure to choose someone you mix well with. (Pick one of your same-sex companion to live with)"
+  },
+  "living-conditions:group":
+  {
+    "titleText":"Group",
+    "imageLink":"",
+    "descriptionText":"You will be living in a huge room together with three other people. It can be a handful, but you won't be alone. (Pick 3 of your companions to live with. You four must all be the same sex OR be split evenly two-to-two)"
+  }
+}

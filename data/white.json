@@ -1,0 +1,58 @@
+{
+  "white:detect-curses":
+  {
+    "titleText":"Detect Curses",
+    "cost": 3,
+    "imageLink":"",
+    "descriptionText":"This spell is one of the rare ones able to detect a curse placed on an object. While those placed on people will be found eventually when their effect takes place, those on objects are frequently only found when it is too late. The spell is incapable of actually breaking a curse, but knowing which objects have been cursed and having an idea of which curse has been used helps one avoid it. The class helps you understand how curses work which makes learning to dismantle them easier."
+  },
+  "white:curse-breaking":
+  {
+    "titleText":"Curse Breaking",
+    "cost": 4,
+    "imageLink":"",
+    "descriptionText":"Where curses can be considered booby traps, Cursebreaking is disarming the trap without detonating it. It is a highly delicate process that requires steady hands. Due to this it is often better to quickly end a battle then disarm the curse afterwards, than trying to break it during a fight. Curses thrown during a fight are rarely too powerful, so unless you are ambushed the curse won't hurt you if you are fast. If time is of the essence one can do a quick and dirty disarming of a curse which removes it, but which runs the risk of a weak version affecting you."
+  },
+  "white:defensive-wards":
+  {
+    "titleText":"Defensive Wards",
+    "cost": 4,
+    "imageLink":"",
+    "descriptionText":"Where Offensive wards can damage an invader or alert you to their presence, Defensive wards are based around protecting you from intruders. If you are camping out in the woods, pop down a Defensive ward near your camp and monsters are repelled; you won't need a person to stand guard. They are particularly effective at repelling anything demonic. Even if they manage to get close, they can't interact with the ward. Some Defensive wards provide a healing effect but those are mild. They are best used if you are stationary."
+  },
+  "white:blessings":
+  {
+    "titleText":"Blessings",
+    "cost": 4,
+    "imageLink":"",
+    "descriptionText":"Blessings covers the vast array of spells that improve your life for some hours or days. They tend to be weaker due to how long-lasting they are, but the are effective nonetheless. Mages that know Blessings are always popular among non-magicians. Some blessings make you better at focusing, others make you feel like Fate is bending to your wil. While a blessing can not directly affect other (ie it cannot make that cute girl blush when you wink at her) you would be surprised how differently the world acts when you feel good."
+  },
+  "white:shielding":
+  {
+    "titleText":"Shielding",
+    "cost": 6,
+    "imageLink":"",
+    "descriptionText":"When it isn't possible to dodge or Dispel a spell, you have to tank it. Rahter than get attacked directly, the Shielding calls teaches you spells that set up an aura that absorbs or at least weakens other spells before they hit. Shielding has a higher success rate than trying to deflect a spell, as the most used Shielding spell passively protects you; it is always up, until you deactivate it. With a shield up, you can focus 100% on fighting back instead of interrupting your flow to reflect. There is also a spell that applies this aura on others."
+  },
+  "white:exorcism":
+  {
+    "titleText":"Excorcism",
+    "cost": 6,
+    "imageLink":"",
+    "descriptionText":"The ultimate White magic spells, being able to destroy evil spirits, demons and anything else that has possessed a person. It only harms the possessed human if the being is smart and strong enough to ensure collateral damage happens. They do this to have a bargining chip and to make you reconsider Exorising them. Exorcisim is the most mana-intensive spell taught in the school. You won't be able to do much other magic for the rest of the day. If you plan to fight an army of demons you are far better off using the spells taught in Purification."
+  },
+  "white:purification]":
+  {
+    "titleText":"Purification",
+    "cost": 8,
+    "imageLink":"",
+    "descriptionText":"The White family of spells does contain some combat spells. White mages are popular on the battlefields because they can heal others but also themselves, and a guy that keeps fighting after getting hit is terrifying. The spells taught in Purification share many traits with Lightning spells: they are fast, bright, and best for single targets. Purification spells are most effective against the undead and tend to have high piercing capabilities. The most used attacking spell is summoning javelins of hard light to fire at opponents."
+  },
+  "white:healing":
+  {
+    "titleText":"Healing",
+    "cost": 8,
+    "imageLink":"",
+    "descriptionText":"Unsurprisingly, there are many spells for healing: some deal with replenishing blood, others with broken bones, and some with numbing pain. Common with all spells is a huge mana cost. It isn't easy to regrow a limb and make all the connections add up. Healers are thus highly valued anywhere you go. The class is one of the toughest and you need to spend much time reading up on the material. Messing up a healing spell is always disastrous."
+  }
+}
