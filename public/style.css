@@ -1,0 +1,356 @@
+* {
+  box-sizing: border-box;
+}
+
+:root
+{
+  --main-bg-color:   rgba(20, 51, 81, 0.6);
+  --header-bg-color: rgba(20, 51, 81, 1.0);
+  --box-bg-color:    rgba(20, 51, 81, 1.0);
+  
+  --main-text-color:   rgba(20, 51, 81, 1.0);
+  --header-text-color: rgba(20, 51, 81, 1.0);
+  --header-text-color: rgba(20, 51, 81, 1.0);
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	background-color: rgba(20, 51, 81, 0.6);
+  background-image: url("https://cdn.glitch.com/cbe90f8f-f512-4dd5-8a72-ebc403bf6035%2FBackground.png?v=1573500772465");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.bonus {
+	font-family: "Franklin Gothic Medium", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	color: rgba(11, 40, 11, 1.0);
+}
+.malus {
+	font-family: "Franklin Gothic Medium", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	color: rgba(82, 21, 21, 1.0);
+}
+.restriction {
+	font-family: "Franklin Gothic Medium", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	color: rgba(205, 150, 5, 1.0);
+}
+.flavor {
+	font-family: "Franklin Gothic Medium", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+  font-style: italic;
+}
+.cost {
+  height: 32px;
+  border: 2px solid transparent;
+	background-color: rgba(30, 30, 35, 1);
+  color: rgba(212, 217, 236, 1.0);
+  font-size:    16px;
+  padding: 8px 14px 8px 12px;
+	text-align: center;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+	border-top: 1px solid rgba(10, 10, 20, 1);
+	padding: 0; 
+	margin: 0;
+}
+h1, h2 {
+  box-shadow: 3px 3px rgba(10, 10, 20, 0.6);
+	overflow: hidden;
+	background-color: rgba(224, 232, 232, 0.8);
+	margin: 10% 16px;
+}
+h3 {
+  box-shadow: 3px 3px rgba(10, 10, 20, 0.6);
+	overflow: hidden;
+	background-color: rgba(224, 232, 232, 0.6);
+	margin: 20% 20%;
+}
+.section-description, .option, .sideDescription {
+  box-shadow: 3px 3px rgba(10, 10, 20, 0.6);
+	overflow: hidden;
+	background-color: rgba(235, 235, 235, 0.95);
+	background-position: center;
+	margin: 12px 10%;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Copperplate Gothic Bold", sans-serif;
+	text-align: center;
+	font-weight: bold;
+	padding: 8px;
+}
+h1 {
+	margin-top: 48px;
+	font-size: 64px;
+	margin-bottom: 0px;
+}
+h2 {
+	margin-top: 12px;
+	font-size: 48px;
+	margin-bottom: 12px;
+}
+h3 {
+	margin-top:    8px;
+	font-size:    36px;
+	margin-bottom: 0px;
+}
+h4 {
+	font-size:     24px;
+	padding-top:    4px;
+	padding-bottom: 0px;
+  margin-bottom:  0px;
+	font-weight:   bold;
+}
+section {
+	padding-top: 48px;
+  padding-bottom: 48px;
+}
+.stdTable {
+  width:   100%;
+  padding: 0px;
+}
+
+.section-description, .sideDescription {
+	width:    80%;
+	padding: 18px;
+}
+
+.option-description {
+    padding: 12px;
+}
+
+.section-description p {
+	margin:  12px;
+  padding: 10px;
+}
+
+.options {
+	display:   flex;
+	flex-wrap: wrap;
+	margin:     8px;
+}
+.option {
+	display: inline-block;
+	flex-grow:     0;
+	flex-shrink:   0;
+	margin:      8px;
+  position: relative;
+  z-index:  1;
+  text-align: center;
+}
+.cost {
+  position:relative;
+  z-index:3;
+  font-weight: bold;
+  font-size:    18px;
+  border: 2px solid transparent;
+	background-color: rgba(40, 44, 44, 0.95);
+}
+.selected {
+	position:absolute;
+  background-color:rgba(10,10,10,0.15);
+  border: 5px solid rgba(204,153,7,1);
+  margin: 0px;
+  top:    0px;
+  left:   0px;
+  bottom: 0px;
+  right:  0px;
+  z-index:2;
+}
+.hidden {
+	position:absolute;
+  background-color:rgba(5,5,5,0.55);
+  margin: 0px;
+  top:    0px;
+  left:   0px;
+  bottom: 0px;
+  right:  0px;
+  z-index:2;
+}
+.row1 .option {
+	width: calc((100% - 16px * 1) / 1);
+}
+.row2 .option {
+	width: calc((100% - 16px * 2) / 2);
+}
+.row3 .option {
+	width: calc((100% - 16px * 3) / 3);
+}
+.row4 .option {
+	width: calc((100% - 16px * 4) / 4);
+}
+.row5 .option {
+	width: calc((100% - 16px * 5) / 5);
+}
+.row6 .option {
+	width: calc((100% - 16px * 6) / 6);
+}
+
+.left-images img {
+	width: 50%;
+	margin-right: 16px;
+	float: left;
+}
+.right-images img {
+	width: 50%;
+	margin-left: 16px;
+	float: right;
+}
+
+.top-images img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-images img + .boxes {
+    margin-top: 5px;
+}
+
+ul {
+	list-style: 
+}
+li {
+	margin-left: 32px;
+}
+button {
+  font-size:    16px;
+  padding: 12px 28px;
+  color:             rgba(212, 217, 236, 1.0);
+  background-color:  rgba(30, 30, 35, 1.0);
+  border: 1px solid rgba(30, 30, 35, 0.6);
+  box-shadow: 2px 2px rgba(10, 10, 20, 0.6);
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgba(212, 217, 236, 1.0);
+  background-color:#444;
+}
+
+button:active {
+  box-shadow: none;
+}
+.float-table {
+  position: fixed;
+  bottom: 0;
+  width: 30%;
+}
+
+.navbar {
+  overflow:         hidden;
+  background-color: #333;
+  color:            rgba(212, 217, 236, 1.0);
+  position:         fixed;   /* Set the navbar to fixed position */
+  top:              0;            /* Position the navbar at the top of the page */
+  width:            100%;       /* Full width */
+  z-index:          50;
+}
+.sidepanel  {
+  width: 0;
+  overflow:scroll;
+  height:700px;
+  position: fixed;
+  z-index: 50;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(20, 51, 81, 1.0);
+  overflow-x: hidden;
+  transition: 0.25s;
+  padding-top: 6px;
+}
+.sidepanel .closebtn {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  float: right;
+  right: 25px;
+  font-size: 36px;
+  color:white;
+  box-shadow: 4px 4px black;
+}
+.sideDescription
+{
+  margin: 32px;
+  z-index: 25;
+}
+.openbtn {
+  position: fixed;
+  bottom: 0;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #333;
+  box-shadow: 4px 4px black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  z-index: 20;
+}
+.openbtn:hover {
+  background-color:#444;
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+a.hlink:link {
+  color: rgba(212, 217, 236, 1.0);
+  text-decoration: none;
+}
+a.hlink:visited{
+   color: rgba(212, 217, 236, 1.0);
+  text-decoration: none;
+}
+a.hlink:hover{
+   color: rgba(146, 203, 239, 1.0);
+  text-decoration: none;
+}
+a.hlink:active {
+  color: rgba(212, 217, 236, 1.0);
+  text-decoration: none;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  color: white; /* Text color */
+  padding: 15px; /* Some padding */
+  font-size: 18px; /* Increase font size */
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+table#finalTable tr:nth-child(even) 
+{
+  background-color: rgba(215, 215, 215, 0.95);
+}
+table#finalTable tr:nth-child(odd)
+{
+  background-color: rgba(235, 235, 235, 0.95);
+}

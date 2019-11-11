@@ -1,0 +1,73 @@
+{
+  "title:lich":
+  {
+    "titleText":"Lich",
+    "imageLink":"",
+    "descriptionText":"Liches are mages that specialize in the darker arts of magic. They have a tendency to live in isolation and unfortunately often get a bad rap.",
+    "restrictionText":"Must take more Black classes than any other color."
+  },
+  "title:sorcerer":
+  {
+    "titleText":"Sorcerer",
+    "imageLink":"",
+    "descriptionText":"Sorcerers are mages who can cast a spell for almost any situation. Sorcerers who do battle are commonly refered to as Elementalists.",
+    "restrictionText":"Must take more Blue and Red classes than all other colors combined."
+  },
+  "title:wizard":
+  {
+    "titleText":"Wizard",
+    "imageLink":"",
+    "descriptionText":"'Wizard' is the general term for a mage that has studied to hone their skills and capabilities. The majority of magic users classify as wizards.",
+    "restrictionText":"Except for Grey, may take no more than 15 credits from any color."
+  },
+  "title:witch":
+  {
+    "titleText":"Witch",
+    "imageLink":"",
+    "descriptionText":"Witches mix multiple branches of magic together. They never fight directly, instead using guile and nefarious methods to win their battles.",
+    "restrictionText":"Must take at least two of the following: Familiar, Curses, Toxic, Conjuration"
+  },
+  "title:druid":
+  {
+    "titleText":"Druid",
+    "imageLink":"",
+    "descriptionText":"Druids are defenders of the forest, both the plants and creatures that dwell there. They only harm those who harm nature.",
+    "restrictionText":"No Black or Red classes (save for Earth Magic). Must have at 15 credits from Green classes"
+  },
+  "title:alchemist":
+  {
+    "titleText":"Alchemist",
+    "imageLink":"",
+    "descriptionText":"Alchemists create and enhance the effects of objects. The best of the best are even able to transmute objects, which leads to easy wealth.",
+    "restrictionText":"Must take at least two of the following: Jewelcraft, Enchanting, Conjuration"
+  },
+  "title:priest":
+  {
+    "titleText":"Priest",
+    "imageLink":"",
+    "descriptionText":"Priests give blessings and heal the sick. They do not fight humans or monsters in the wild, but do combat and ward against demons.",
+    "restrictionText":"No Black classes. At most one Red class. Must have 15 credits from White classes."
+  },
+  "title:defender":
+  {
+    "titleText":"Defender",
+    "imageLink":"",
+    "descriptionText":"Defenders tend to fight in armies ensuring the other troops are not defeated by enemy mages. They mostly avoid direct combat.",
+    "restrictionText":"Must take at least two of the following: Despel, Reflect, Shielding, Healing"
+  },
+  "title:battlemage":
+  {
+    "titleText":"Battlemage",
+    "imageLink":"",
+    "descriptionText":"Battlemages fight the monsters of the world, earning great fame from their deeds. Many go down as legends, imortalized in history books..",
+    "restrictionText":"Must take at least one of the following: Mana channeling, Martial Arts. Must have at least 15 credits from Red classes."
+  },
+  "title:spellblade":
+  {
+    "titleText":"SpellBlade",
+    "imageLink":"",
+    "descriptionText":"Spellblades enchant their weapons to be as effective as possible against whatever they are fighting. They have vast knowledge of monsters.",
+    "restrictionText":"Must take Enchanting. Must have at least 15 credits from Red classes."
+  }
+  
+}

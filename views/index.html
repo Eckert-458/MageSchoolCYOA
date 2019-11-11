@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mage School</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  
+  <body>
+    
+    <!-- Side Panel Stuff -->
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+           
+      <h2> Final Course List </h2>
+        <div class="section-description">
+          <table id="finalTable" class="stdTable">
+            <tr>
+              <td><b>Title:</b></td><td><span id="outTitle"><!-- Programatic fill --></span></td>
+            </tr>
+            <tr>
+              <td><b>Coursework:</b></td><td><span id="final-courses"><!-- Programatic fill --></span></td>
+            </tr>
+            <tr>
+              <td><b>Dorm:</b></td><td><span id="outDorm"><!-- Programatic fill --></span></td>
+            </tr>
+            <tr>
+              <td><b>Room Size:</b></td><td><span id="outDormType"><!-- Programatic fill --></span></td>
+            </tr>
+            <tr>
+              <td><b>Mysteries:</b></td><td><span id="final-mysteries"><!-- Programatic fill --></span></td>
+            </tr>
+            <tr>
+              <td><b>Friends:</b></td><td><span id="final-friends"><!-- Programatic fill --></span></td>
+            </tr>
+          </table>
+          
+        </div>
+      <h2> List in Reddit markdown </h2>
+      <div class="section-description" id="redditTable">
+          <!-- Programatic fill -->
+      </div>
+    </div>
+
+    <button class="openbtn" onclick="openNav()">☰ Show Build</button>  
+    
+    <!-- Top Navigation Bar -->
+    <div class="navbar">
+      Remaining Credits: <span id="outCredits"></span>
+    </div>
+    
+    <!-- Main Webpage -->
+    <header>
+      <h1>
+        Mage School
+      </h1>
+    </header>
+
+    <main>
+      <section id="intro">
+        <div class="section-description flavor">
+          <p>
+          It's the dawn of a new year at Migorn School of Magic. 
+          Your first semester begins shortly.            
+          You'll be taught in the fields of magics you are most intersted in, and you get to design your education plan yourself.
+          Before becoming a school of magic, the castle was used to contain a princess who was unable to control her magical powers.
+          When she did finally gain control of her magic, she used her resources to make her old prison into a center for magical learning - hence, Migorn was formed.
+          Though the exterior is archaic, the insides are thankfully kept up to standards, following the newest trends for schools.
+          </p>
+          <p>
+            The education lasts a full <b>3</b> years, over the course of which, you will be able to take up to a total of <b>60 Credits</b> worth of classes.
+          </p>
+        </div> 
+        <h2> Classes </h2>
+        <div class="section-description">
+          <p>
+            Classes are divided into "colors", mostly for ease of talking about classes with your friends.
+            There tends to be "playful" rivalries between colors, but with most students taking a mixture of classes this isn't something to worry about.
+          </p>
+          <p>
+            While classes don't have formal prerequisites, some logically follow others. 
+            For example learning how to detect curses won't help much if you can't see them, and knowing how to make things levitate make it easier to understand how to manipulate gravity of a larger scale.
+          </p>
+          <p>
+            Note that your "title" depends on your classes.
+          </p>
+        </div>
+      </section>
+      
+      <section id="magic">
+        <section id="magic:grey" style="background-color: rgba(128, 128, 128, 0.95);"  >
+          <h3>Grey</h3>
+          <div class="section-description">
+            Few mages graduating from Migorn do so without taking any Grey classes.
+            They are a staple for all mages to learn, and will help you out in your day-to-day life and learning other types of magic.
+          </div>
+          <div class="options top-images row5" id="grey" >    
+            <div class="option" id="grey:magic-101">
+  <div class="" id="grey:magic-101:overlay"></div>
+  <div class="cost" id="grey:magic-101:cost"> - 2 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Magic 101 </h4>
+  <div class="option-description">
+A general class all about magic and spells, how they work and what mana is. You won't be learning any spells, but it teaches theory you could be unfamiliar with. There's a big focus on regerenating mana and dealing with mana sickness: Running out of mana in the middle of a fight is a shameful way to go out. More advanced mages can still benefit from learning techniqques to replenish mana faster. Many do however treat it as a goofing-off class, a time to meet up with friends or to interact with the other sex.
+  </div>
+</div>
+<div class="option" id="grey:martial-arts">
+  <div class="" id="grey:martial-arts:overlay"></div>
+  <div class="cost" id="grey:martial-arts:cost"> - 3 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Martial Arts </h4>
+  <div class="option-description">
+A mage who relies on magic for everything is a poor mage. You will more than likely find yourself in a situation of three where magic isn't an option and fisticuffs must be used. You might have run out of juice, be fighting too many enemies or be afraid of collateral damage. In close quearters it can be difficult to fire off spells both rapidly and with accuarcy, as you'll need to dodge blows while chanting spells. In class students will learn fighting strategies and how to fight and win in melee combat, (as well as how to de-escalate situations)
+  </div>
+</div>
+<div class="option" id="grey:blink">
+  <div class="" id="grey:blink:overlay"></div>
+  <div class="cost" id="grey:blink:cost"> - 3 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Blink </h4>
+  <div class="option-description">
+Learning to perform short-range teleportation. Safe distances are up to 50 meters, perfect for its main purpose of dodging spells or relocating during combat. While one certainly can jump further than 50 meters, side effects include passing out and ripping your cloths to shreds. Blink works through walls but be careful that you know how far to jump. Blinking into a wall hurts profoundly. You don't get stuck halfway through, instead you get smacked into a hard wall at breakneck speeds.
+  </div>
+</div>
+<div class="option" id="grey:jewelcraft">
+  <div class="" id="grey:jewelcraft:overlay"></div>
+  <div class="cost" id="grey:jewelcraft:cost"> - 4 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Jewelcraft </h4>
+  <div class="option-description">
+Learn to create pure jewels out of common rocks. The quality of the jewel depends on the size and purity of the rocks, and the time you invest in magicaly chiseling the stone. Once you've made the gemstone, you can store mana inside of it, to either instantly cast the spell you chose or to toss it like a make-shift alchemical bomb. Gravity bombs are quite popular. Naturaly you will need to know the relevant spell if you want to use the gems for making bombs. Jewels are consumed upon use and offer a huge boost if one plans ahead.
+  </div>
+</div>
+<div class="option" id="grey:levitation">
+  <div class="" id="grey:levitation:overlay"></div>
+  <div class="cost" id="grey:levitation:cost"> - 4 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Levitation </h4>
+  <div class="option-description">
+Cause objects to float in midair, defying the laws of physics for a period of time. Levitation magic is a focused version of Gravity, where you affect a single object rather than an area. It is generally far harder to make living beings (who struggle) float. Making an object float is not the most difficult part of the class. That would be changing the altitude of the object by changing whether gravity points up or down. Knowing Force magic tends to speed up the learning preocess up, and if the two were combined you could get proper telekinesis.
+  </div>
+</div>
+<div class="option" id="grey:detection">
+  <div class="" id="grey:detection:overlay"></div>
+  <div class="cost" id="grey:detection:cost"> - 4 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Detection </h4>
+  <div class="option-description">
+There are many spells which can't be seen with the naked eyes, but almost all still leave behind a kind of magical residue that can be detected. Detection teaches just that: finding the faint traces, stitching the fragments together and learning what spel was used. It rarely tells you the purpose or what the spell was used on. Detection is commonly used to solve crimes. Detection can NOT be used to find more wards, old curses, or blessings because Detection relies on looking for recent mana expenditures in an area. It will however work if they were very recently cast.
+  </div>
+</div>
+<div class="option" id="grey:telepathy">
+  <div class="" id="grey:telepathy:overlay"></div>
+  <div class="cost" id="grey:telepathy:cost"> - 4 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Telepathy </h4>
+  <div class="option-description">
+In telepathy you will learn how to establish a mental connection to another person. It is possible to connect to multiple at a time, but many develop migraines doing so. When you establish a connection - unless you are a pro - the other person will feel an itch. Once established you can talk freely to the other person. You <i>can</i> eavesdrop on thei surface thoughts, but mindreading isn't covered by the curriculum as it is deemed unethical. Due to to the great difficulty to discover others using telepathy, it is often (mis)used to cheat on exams.
+  </div>
+</div>
+<div class="option" id="grey:mana-channeling">
+  <div class="" id="grey:mana-channeling:overlay"></div>
+  <div class="cost" id="grey:mana-channeling:cost"> - 5 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Mana Channeling </h4>
+  <div class="option-description">
+A class where one learns to channel mana throughout their own body rather than project it outward through the use of spells. Directing mana is challenging but can allow one to perform superhuman feats: Scale walls by binding you feet to the walls, punching through walls and send them flying. Mana channeling does have a reputation for causing damage from prolonged use, so care must be exercised. A bonus of Mana Channeling is that raw mana cannot be cancelled since 'Anti-magic' relies on countering specific spells.
+  </div>
+</div>
+<div class="option" id="grey:force">
+  <div class="" id="grey:force:overlay"></div>
+  <div class="cost" id="grey:force:cost"> - 6 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Force </h4>
+  <div class="option-description">
+Plan old pushing people and objects away or pulling them towards you. Learning the right amount of force to apply can be tricky: you do not want to break something, but you also want to use enough to actaully push it. That is why the first classes will be strictly using plastic vases. Force has no elemental properties making it neither specifically good or bad against any enemy. Most people in the class with be people unfamiliar with magic... or they want an easy A.
+  </div>
+</div>
+<div class="option" id="grey:gravity">
+  <div class="" id="grey:gravity:overlay"></div>
+  <div class="cost" id="grey:gravity:cost"> - 10 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Gravity </h4>
+  <div class="option-description">
+Learn how to control gravity in a small area. Make it stronger to stop people from moving easily or make it weaker to have people fall out of surprise. Gravity is a group of extremely powerful spells that one must be careful with as its is easy to make the effects too strong. Particularly crafty mages can create multiple 'gravity wells' that have their own gravity fields that pull people and objects alike either away or towards them. This is a hard spell to master, but exceptionally confusing to fight against.
+  </div>
+</div>
+
+          </div>
+        </section>
+        <section id="magic:blue" style="background-color: rgba(0, 0, 153, 0.95);"  >
+          <h3>Blue</h3>
+          <div class="section-description">
+            Blue magic is mainly focused around support.
+            Combat-wise the spells are more about distracting the opponent and not getting hurt than dealing direct damage.
+          </div>
+          <div class="options top-images row5" id="blue">  
+            <div class="option" id="blue:conjuration">
+  <div class="" id="blue:conjuration:overlay"></div>
+  <div class="cost" id="blue:conjuration:cost"> - 4 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Conjuration </h4>
+  <div class="option-description">
+Sometimes you and your party might get lost, or have to leave without time to pack supplies. Things can get dire fast. Luckily the Conjuration class teaches spells related to create rations, small amounts of water and basic utensils. This is food that has the energy you need to fight on, but it isn't stuff you will grow big and strong on. Relying on this for tool long leaves you with various deficiencies. The food and water doesn't help with replenishing mana either, making it better for someone who doesn't rely too heavily on spells.
+  </div>
+</div>
+<div class="option" id="blue:scrying">
+  <div class="" id="blue:scrying:overlay"></div>
+  <div class="cost" id="blue:scrying:cost"> - 4 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Scrying </h4>
+  <div class="option-description">
+Learn to tell the future in vague terms and riddles that will often need to be deciphered first. Failing to do so may result in embarrassment. Due to the vagueness of scrying it is less like to result in Fate messing with the future. For instance you can see with ease if you will be happy with the results of your exams if you keep working at the same intensity, but not see the exact grade. Looking at events that will happen within the next two weeks will rarely give any results you can interpret accurately.
+  </div>
+</div>
+<div class="option" id="blue:imitation">
+  <div class="" id="blue:imitation:overlay"></div>
+  <div class="cost" id="blue:imitation:cost"> - 5 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Imitation </h4>
+  <div class="option-description">
+The imitation class covers the spells based on Wendigos, who call out to you with a familiar voice, and Mimics, those dastardly creatures lurking in dungeons pretending to be treasure chests ... <i>who even still stores their valuables in a obviously goden chest? </i> You will learn how to copy a voice from memory, including eventually pronunciation of certain words as well as dialect. If you show talent you may also learn how to temporarily copy a person's body. This seldom lass long and requires an immense knowledge of how a person looks, walks, etc.
+  </div>
+</div>
+<div class="option" id="blue:illusions">
+  <div class="" id="blue:illusions:overlay"></div>
+  <div class="cost" id="blue:illusions:cost"> - 5 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Illusions </h4>
+  <div class="option-description">
+Illusions are similar in nature to Imitation, but rather than changing yourself the source is some other point. Illusion teaches you how to create sounds that tem from a point you choose, uch as behind a person to trick them. While it is easiest to use your own voice as you are most intimate with it, in time you can make other sounds. Having taken the Imitation class will expedite this process. An advanced technique is creating copies of yourself that follow basic orders that you give them when making them. These 'clones' are incorporeal.
+  </div>
+</div>
+<div class="option" id="blue:divination">
+  <div class="" id="blue:divination:overlay"></div>
+  <div class="cost" id="blue:divination:cost"> - 6 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Divination </h4>
+  <div class="option-description">
+Where scrying focuses on the long-term, and in more vague details, Divination is abut the immediate future. You see the future told in vivid details by 'borrorwing' Zoria's eye. he more you know yourself (or the person who's future you are seeing) the farther you can see and the more details. Note that Zoria and Fate have a hate-hate relationship: Fate will try to change things if you look at the same person's future too often. Also note that while difficult, the future can be changed if serious emotions are involved.
+  </div>
+</div>
+<div class="option" id="blue:enchanting">
+  <div class="" id="blue:enchanting:overlay"></div>
+  <div class="cost" id="blue:enchanting:cost"> - 6 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Enchanting </h4>
+  <div class="option-description">
+How to strengthen objects and even mae them (almost) as good as new. Basic enchantments improves the natural capabilities of the object, for instance making a sword sharper or a torch use less fuel. A beginner's enchantments will weaken with time, but an expert's can last for eons. <br/><br/> Enchantments can also add the effects of certain other spells, if you know any that are compatible. This is a class that is best to take early on in your education, as it opens up new ways to use spells you learn later.
+  </div>
+</div>
+<div class="option" id="blue:reflect">
+  <div class="" id="blue:reflect:overlay"></div>
+  <div class="cost" id="blue:reflect:cost"> - 6 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Reflect </h4>
+  <div class="option-description">
+A class which teaches you how to set up barriers that reflect spells back to the caster. These spells are awfully mana inefficient, and it is oftentimes better to dodge a spell if possibe. Then again, it is wildly satsifying to give someone a does of their own medicine, and there are spells which cannot be easily dodged, if at all. Reflection relies heavily on timing: activate the spell right before you are hit, or you will end up burning through mana so fast you cannot counter-attack. Experts are able to enchant Reflect on walls to protect against spells.
+  </div>
+</div>
+<div class="option" id="blue:invisibility">
+  <div class="" id="blue:invisibility:overlay"></div>
+  <div class="cost" id="blue:invisibility:cost"> - 7 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Invisibility </h4>
+  <div class="option-description">
+Invisibility is a fickle family of spells. It runs out faster when the person is moving, and if your casting of the spell is poor the object will shimmer in the light. It takes quite a time to master but fortunately there's no ill consequences from messing up the spells, other than it not working or running out too soon. If you plan to use invisibility for mischief on school grounds, keep that in mind: it is not good for sneaking around, but great for hiding in plain sight. Invisibility is much easier to cast perfectly on objects than living beings.
+  </div>
+</div>
+<div class="option" id="blue:familiar">
+  <div class="" id="blue:familiar:overlay"></div>
+  <div class="cost" id="blue:familiar:cost"> - 7 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Familiar </h4>
+  <div class="option-description">
+At the end of the class you wil be in possession of a mage's best friend: a Familiar. You will use the class to research the proper kind of core, find a core, and finally breath life into the core. The type of core affects the familiars personality and body type. Hard crystal for instance gives you defending, stoic and large familiars, whereas a small flaming feather gives you a cute phoenix. Their intellect can range from pet to near-human, depending on the quality of the core you use. Common in all Familiars is some tell that they are magical.
+  </div>
+</div>
+<div class="option" id="blue:dispel">
+  <div class="" id="blue:dispel:overlay"></div>
+  <div class="cost" id="blue:dispel:cost"> - 10 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Dispel </h4>
+  <div class="option-description">
+A class that specializes in the removal of magical properties whether it be blessings, enchantments, illusions, etc. Since it requires highly specific materials to have multiple enchantments, you must remove an old one to apply a new one. While Dispel can remove the magic from wards it will break the item and notify the owner, and you will need cursebreaking to remove curses. Dispel is typically useless against fast-moving attack spells as you must first identify the type of spell used before knowing which Dispel spell to utilize in return.
+  </div>
+</div>
+
+          </div>
+        </section>
+        <section id="magic:red" style="background-color: rgba(153, 0, 0, 0.95);"  >
+          <h3>Red</h3>
+          <div class="section-description">
+            The spells specifically based on fighting are covered in the Red color. 
+            Even if you plan to avoid combat, knowing how to fight is a good idea.
+            The practical portion of the classes will take place in the nearby Dungeon, where monsters regenerate each day.
+          </div>
+          <div class="options top-images row5" id="red">  
+            <div class="option" id="red:earth">
+  <div class="" id="red:earth:overlay"></div>
+  <div class="cost" id="red:earth:cost"> - 5 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Earth </h4>
+  <div class="option-description">
+After taking the Earth class you will be able to control the very ground you stand on and shape it to your will. Earth magic is excellent if you are the type to plan several moves ahead. Earth magic is indeed powerful, but it takes time before the ground begins to move. Earth magic is fantastic for both offense and defense, capable of forming walls for cover and causing spikes to shoot out of the ground. Of course, you can also toss a 100 kilo dense boulder at someone's face. You will also be taught geology and learn to extract valuable impurities from the Earth.
+  </div>
+</div>
+<div class="option" id="red:toxic">
+  <div class="" id="red:toxic:overlay"></div>
+  <div class="cost" id="red:toxic:cost"> - 5 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Toxic </h4>
+  <div class="option-description">
+Toxic teaches the nastier potions you can mix: Poisons, venoms, acids, and toxins. Effects range frm hallucinations to truth saying and death. You will learn how to amplify the potency of poisons or make the effect (e.g. paralysis) only hit certain parts of the body, such as only the arms. You also learn the subtle tells that you have been poisoned as well as how to brew some common antidotes. Besides potion brewing you learn spells to mask the taste of poisons, summon armor-shredding acid and create darts for poisoning someone at a distance.
+  </div>
+</div>
+<div class="option" id="red:water">
+  <div class="" id="red:water:overlay"></div>
+  <div class="cost" id="red:water:cost"> - 6 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Water </h4>
+  <div class="option-description">
+Water is incorrectly thought to be a purely defensive family of spells. While they are great for absorbing projectile-based attacks, crashing waves can be quite devastating and are amazing at sapping an enemy's stamina. After a few hits they will be too fatigued to fight on. To use Water magic you must first draw moisture from the air or use water from your surroundings; the first many classes are spent teaching this integral spell. Highly talented Water mages can create pure water, unaffected by electricity.
+  </div>
+</div>
+<div class="option" id="red:fire">
+  <div class="" id="red:fire:overlay"></div>
+  <div class="cost" id="red:fire:cost"> - 6 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Fire </h4>
+  <div class="option-description">
+Fire magic is commonly viewed as the staple of combat magic. Some people even go as far as to say that you are not a real mage if you cannot lob a fireball. Fire spells are generally area based and as such are the bane of armies, and greate for drawing enemies out of cover. Accuracy is not as necessary which  is great because the projectiles tend to be slow-moving and easy to dodge. Outside of combat, fire is great for starting torches and providing heat. You will even be taough a cantrip to produce a small floating fire whcih produces no heat but burns brightly.
+  </div>
+</div>
+<div class="option" id="red:lightning">
+  <div class="" id="red:lightning:overlay"></div>
+  <div class="cost" id="red:lightning:cost"> - 7 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Lightning </h4>
+  <div class="option-description">
+Lightnigh is an antithesis to fire magic: it is accurate, fast and best for singling out a combatant. A fire mage may deal with an army, but a lightning mage will assassinate the commander from the other end of the battlefield. The class teaches you how to extract mana from the aire during thunder storms, and even directing or causing thunder to strike. Not many students willl be able to handle the energy in the highest tiered spells. A clever mage will use a water spell to douse multiple enemies in water then fry them with a lighning spell.
+  </div>
+</div>
+<div class="option" id="red:ice">
+  <div class="" id="red:ice:overlay"></div>
+  <div class="cost" id="red:ice:cost"> - 7 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Ice </h4>
+  <div class="option-description">
+Throughout this course you will learn how to drain heat from objects and even the air, eventually allowing you to chill a room and create ice, snow, fog, and mist. The Ice class is perfect if you only want one Red class, as it offers a good mix of both offense and defense. You will be able to make tough walls to defend from projectiles, and fire swift ice needles at any assailant. Most combat Ice spells have a hard time piercing armor or thick hide. Powerful feats of Ice magic does unfortunately require high humidity or water to be nearby.
+  </div>
+</div>
+<div class="option" id="red:wind">
+  <div class="" id="red:wind:overlay"></div>
+  <div class="cost" id="red:wind:cost"> - 7 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Wind </h4>
+  <div class="option-description">
+Learn how to summon winds and manipulate the air around you. There are spells for creating an air bubble around your head letting you breathe underwater if you race doesn't allow you to. Wind spells can also greatly enhance your movement speed and allow you to jump great heights. The class also teaches sound-based spells such as echolocation, deafening screeches and making you voice come from random places. Combine with the Imitation and Illusion classes and you will be great at confusing enemies.
+  </div>
+</div>
+<div class="option" id="red:combination">
+  <div class="" id="red:combination:overlay"></div>
+  <div class="cost" id="red:combination:cost"> - 8 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Combination </h4>
+  <div class="option-description">
+Learn how to combine spells for catastrophic effects. For instance mix a Wind spell with a Fire spell to surround yourself ina flaming tornado, or Earth with Ice to create a boulder that explodes into millions of ice needles upon impact. Combination tends to have no or little effect with spells from the Grey School. It is highly useful for creating an elemental core for the Familiar spell: as magical cores have a great effect on the familiar's personality, Combination is your best bet for deciding what your Familiar is like.
+  </div>
+</div>
+
+          </div>
+        </section>
+        <section id="magic:green" style="background-color: rgba(0, 153, 0, 0.95);"  >
+          <h3>Green</h3>
+          <div class="section-description">
+            Spells belonging to the Green family are nature-based, and many rely more on knowledge than they do on strength.
+            They are some of the least combat-oriented classes taught at Migorn, and are better used off the battlefield.
+          </div>
+          <div class="options top-images row5" id="green">  
+            <div class="option" id="green:survivalism">
+  <div class="" id="green:survivalism:overlay"></div>
+  <div class="cost" id="green:survivalism:cost"> - 1 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Survivalism </h4>
+  <div class="option-description">
+A very basic class that focuses on how to survive when you don't have the comforts of a town. It is important for any adventurer to know what to bring and how to set up camp. Basic magical and non-magical traps are taught that can help with catching small animals, but they won't do much against a monster. You will also be taught to identify which mushrooms are edible and which are best to only be eaten at home.
+  </div>
+</div>
+<div class="option" id="green:animal-talking">
+  <div class="" id="green:animal-talking:overlay"></div>
+  <div class="cost" id="green:animal-talking:cost"> - 1 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Animal Talking </h4>
+  <div class="option-description">
+There are a lot of animals that are intelligent enough to hold a conversation with, if only they could form words. There is a fairly simple spell that lets you hook up a telepathic connection with such an animal. This lets them speak to you in your native language, assuming they want to talk. Some only want to talk about food, but other animals can help you out, especially if you are a Beast tamer. You could convince a bird to spy for you, and an enemy may ignore it since it was not magical.
+  </div>
+</div>
+<div class="option" id="green:spirit-talking">
+  <div class="" id="green:spirit-talking:overlay"></div>
+  <div class="cost" id="green:spirit-talking:cost"> - 2 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Spirit Talking </h4>
+  <div class="option-description">
+Spirits can be found all around us but few take the time to figure out how to see and communicate with them. Unlike ghosts, who come from people with strong wills that died before accomplishing their goals, spirits are born of nature. They tend to be benevolent, but the Fae are often tricksters, and have a different sense of right and wrong. You will be able to see and chat with spirits, and learn how to infuse them into objects should they agree to. They can be excellent protectors of your house as few mages thing to check for spirits.
+  </div>
+</div>
+<div class="option" id="green:animal-form">
+  <div class="" id="green:animal-form:overlay"></div>
+  <div class="cost" id="green:animal-form:cost"> - 3 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Animal Form </h4>
+  <div class="option-description">
+The ability to transform into one of a handful of forms. The forms are dictated by your personality, meaning which five animals most resonate with you. A dominant person may end up with plenty of predator forms, where a shy person could turn into an armadillio and a turtle. You will start out learning how to transform into the smallest of your available forms. Also, just be aware that your cloths do not change with you, and larger forms may rip apart your cloths. Some of the pervier of your classmates take the class expressly for the nudity.
+  </div>
+</div>
+<div class="option" id="green:beast-taming">
+  <div class="" id="green:beast-taming:overlay"></div>
+  <div class="cost" id="green:beast-taming:cost"> - 3 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Beast Taming </h4>
+  <div class="option-description">
+Beast and mosters are common in the wild, and knowing how not to be their next meal is highly useful. You will learn to tell similar species apart, their diet, where they may be found, how to track them, and how to tame them. Talented Beast tamers are able to call for the assistance of beasts to fight with them, or even ride them. <br /><br /> The confidence you gain from the class makes beasts more likey to avoid attacking you, and more likely to be intrigued by you.
+  </div>
+</div>
+<div class="option" id="green:herblore">
+  <div class="" id="green:herblore:overlay"></div>
+  <div class="cost" id="green:herblore:cost"> - 4 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Herblore </h4>
+  <div class="option-description">
+In the heart of the Green classes is Herblore: knowing how to find and grow herbs and mushrooms. You learn spells to detect plants, making them light up in your vision. Besides that plants tend to like Herbalists and want to be picked by them: thorns won't hurt you and any plants that can defend itself, choosing not t when you are near. That is assuming you are kind to nature of course, and treat the plants well. The illusive Dryands are more prone to appear near Herbalists, as the forest does not feel threatened by you.
+  </div>
+</div>
+<div class="option" id="green:growth">
+  <div class="" id="green:growth:overlay"></div>
+  <div class="cost" id="green:growth:cost"> - 5 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Growth </h4>
+  <div class="option-description">
+In this class you will learn spells to care for plants, including growing at extreme rates and producing more yield per harvest. Too fast growth can be detrimental to their health, each plant having a different maximal growth speed they can tolerate. The 'ultimate' spell in this class is resurrecting recently deceased plants, though they will need constant care for the first few days. While learning about these spells you also develop a 'green thumb', a passive ability that protects the plants you grow from harmful insects.
+  </div>
+</div>
+<div class="option" id="green:potion-brewing">
+  <div class="" id="green:potion-brewing:overlay"></div>
+  <div class="cost" id="green:potion-brewing:cost"> - 6 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Potion Brewing </h4>
+  <div class="option-description">
+Potion brewing is a class where no spells are taught, only how to make potions and undertand the various ingredients. At the end of the semester you should be able to enhance potions, such as masking taste or making them more potent, and brilliant students will even be able to make up their own potions. Ingredients can be expensive or hard to come by, which is usually the bane of apothecaries. Everything from healing potions to invisibility potions are taught, and the students are free to use the class for testing out recipes they found.
+  </div>
+</div>
+
+          </div>
+        </section>
+        <section id="magic:black" style="background-color: rgba(0, 0, 0, 0.95);"  >
+          <h3>Black</h3>
+          <div class="section-description">
+            A darker branch of magic, focusing on demons and other foul creatures.
+            As "knowing is half the battle", these courses are still taught.
+            Some of the classes tend to be removed for some years, then brought back into the curriculum once enough students plead for it.
+          </div>
+          <div class="options top-images row5" id="black"> 
+            <div class="option" id="black:nether-talking">
+  <div class="" id="black:nether-talking:overlay"></div>
+  <div class="cost" id="black:nether-talking:cost"> - 2 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Nether Talking </h4>
+  <div class="option-description">
+How to talk to the recently deceased, or stubborn ghosts that won't pass on. Not only is it a cool/creepy party trick to convice a ghost to posses someone, it can also lead to closure in those who miss a loved one. There's lots of ghosts to be gound in the Bishop dorm that love telling stories of their time at the school. They also know where all the peepholes are and if you befriend them, they can assist in various ways.
+  </div>
+</div>
+<div class="option" id="black:offensive-wards">
+  <div class="" id="black:offensive-wards:overlay"></div>
+  <div class="cost" id="black:offensive-wards:cost"> - 4 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Offensive Wards </h4>
+  <div class="option-description">
+Offensive wards work similarly to landmines: They are only activated when someone steps on or near them. They are designed to hold down an area or protect your house, and either harm an intruder or alert you to their presence. If you want to make them extra spicy they can be enchanted, if you have the necessary classes. As only recently placed wards can be found with Detection magic, they easily catch invaders off guard. You need specialized magic to see them and trying to remove the wards still alerts you of tampering.
+  </div>
+</div>
+<div class="option" id="black:darkness">
+  <div class="" id="black:darkness:overlay"></div>
+  <div class="cost" id="black:darkness:cost"> - 5 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Darkness </h4>
+  <div class="option-description">
+A class teaching you how to manipulate and even summon darkness. You learn how to blink from one spot of darkness to another (within eye sight), to intensifying shadows and even making them spread out. You'll be able to attack physically through one shadow and comes out the other. It can hurt quite a bit if the shadows are destroyed by light while  you do this. If you have the talent you can learn a high level spell of shrouding yourself in total darkness and becoming incorporeal.
+  </div>
+</div>
+<div class="option" id="black:curse-object">
+  <div class="" id="black:curse-object:overlay"></div>
+  <div class="cost" id="black:curse-object:cost"> - 5 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Curse Object </h4>
+  <div class="option-description">
+An offshoot of Curses that specifically focused on cursing items ~ similar in theory to enchantments, though curses are hidden and are only activated when trigered. Each curse you lay has a different trigger scenario, such as 'is worn or 'is removed from the room'. Curses range from being inconvenient such as 'can not get a song out of their head' all the way to harmful effects such as 'cannot let go unless allowed to'. Strong curses give off an inexplicable feeling of something being wrong with it. This curiosity can be abused.
+  </div>
+</div>
+<div class="option" id="black:necromancy">
+  <div class="" id="black:necromancy:overlay"></div>
+  <div class="cost" id="black:necromancy:cost"> - 6 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Necromancy </h4>
+  <div class="option-description">
+Learn how to command the bones in the ground to reform and reanimate, and breathe new life into them. Skeletons have low intelligence (unless you are lucky enough to find dragon bones), and need simple, direct orders. Their work ethic makes up for their inability to think: they do not stop until ordered to, or each bone is removed from the corpse.<br/><br/> Necromancy is useful for overrunning an enemy with lots of skeletons, but you will want a backup spell or two in case the enemy breaks through.
+  </div>
+</div>
+<div class="option" id="black:summoning">
+  <div class="" id="black:summoning:overlay"></div>
+  <div class="cost" id="black:summoning:cost"> - 6 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Summoning </h4>
+  <div class="option-description">
+Whereas spirits are mainly benevolent, demons are mostly malevolent. Whether they do what you ask them depends on what they gain from your exchange: if you aim to cause mischief they are all for it, but they will spit fire on you if you ask them to do your homework. You will learn how to summon multiple types/races of demons but to bind them to your will is another class. You can dispel any demon you have summoned (unless they seriously out power you), but a crafty demon can run away and cause havoc.
+  </div>
+</div>
+<div class="option" id="black:binding">
+  <div class="" id="black:binding:overlay"></div>
+  <div class="cost" id="black:binding:cost"> - 7 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Binding </h4>
+  <div class="option-description">
+Learning how to bind a demon, or even a spirit or ghost to your will. This process is only pain free for demons, who willingly let themselves be bound in return for something. This 'something' can be your downfall. A binding lets you tap into the creature's strength or magic, for instance growing demonic wings if you bind an imp or being able to see blood (even through illusions and invisibility spells) by binding a vampire. Even when you are not using their power there will be a demonic aura surrounding your body.
+  </div>
+</div>
+<div class="option" id="black:curses">
+  <div class="" id="black:curses:overlay"></div>
+  <div class="cost" id="black:curses:cost"> - 7 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Curses </h4>
+  <div class="option-description">
+Curses are roughly speaking any harmful effect you can apply to a person using magic. They can be seen as the counterpart to Blessings. Most are long-range, and the powerful ones require a strand of hair or a personal item. This has led to other mages looking down at those using curses and calling them spineless. While straight-up murder and similarly horrendous curses are not taught in class, you will be surprised how easy it is to convince the professor to teach you off-the-books if you provide a compelling offer.
+  </div>
+</div>
+<div class="option" id="black:leeching">
+  <div class="" id="black:leeching:overlay"></div>
+  <div class="cost" id="black:leeching:cost"> - 7 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Leeching </h4>
+  <div class="option-description">
+Leeching is a group of spells that revlve around stealing another mage's stores, or healing yourself by sapping stamina from any living being. Once you've fired off your Leeching spell the target imediately feels the effect; there is no subtlety and it is child's play to follow the flow of mana back to you. WHile the spell itself is fairly simple to break it does take time to do so. You have to be aggressive to make sure your opponent cannot dispel your Leeching spell. If you can do this it is an easy win as you grow stronger while they grow weaker.
+  </div>
+</div>
+<div class="option" id="black:puppeteering">
+  <div class="" id="black:puppeteering:overlay"></div>
+  <div class="cost" id="black:puppeteering:cost"> - 10 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Puppeteering </h4>
+  <div class="option-description">
+Unlike other classes this one is taught at midnight and there will be no official record of you attending. The spell lets you take over another person's body and use it like it was your own, while leaving yours in a comatose state. Masters can leave the victim feeling in control, that they are the ones doing and saying what you are making them say. To perform the spell you must have a personal belonging of high value to them. Puppeteering takes insane amounts of concentration and silence to perfom, can be broken simply by touching the caster.
+  </div>
+</div>
+
+          </div>
+        </section>
+        <section id="magic:white" style="background-color: rgba(255, 255, 255, 0.95);"  >
+          <h3>White</h3>
+          <div class="section-description">
+            White magic is a somewhat mixed batch of spells that mainly revolve around protecting others.
+            The strength of many White spells depends on your belief in them working.
+            You must be confident in your abilities.
+          </div>
+          <div class="options top-images row5" id="white">   
+            <div class="option" id="white:detect-curses">
+  <div class="" id="white:detect-curses:overlay"></div>
+  <div class="cost" id="white:detect-curses:cost"> - 3 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Detect Curses </h4>
+  <div class="option-description">
+This spell is one of the rare ones able to detect a curse placed on an object. While those placed on people will be found eventually when their effect takes place, those on objects are frequently only found when it is too late. The spell is incapable of actually breaking a curse, but knowing which objects have been cursed and having an idea of which curse has been used helps one avoid it. The class helps you understand how curses work which makes learning to dismantle them easier.
+  </div>
+</div>
+<div class="option" id="white:curse-breaking">
+  <div class="" id="white:curse-breaking:overlay"></div>
+  <div class="cost" id="white:curse-breaking:cost"> - 4 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Curse Breaking </h4>
+  <div class="option-description">
+Where curses can be considered booby traps, Cursebreaking is disarming the trap without detonating it. It is a highly delicate process that requires steady hands. Due to this it is often better to quickly end a battle then disarm the curse afterwards, than trying to break it during a fight. Curses thrown during a fight are rarely too powerful, so unless you are ambushed the curse won't hurt you if you are fast. If time is of the essence one can do a quick and dirty disarming of a curse which removes it, but which runs the risk of a weak version affecting you.
+  </div>
+</div>
+<div class="option" id="white:defensive-wards">
+  <div class="" id="white:defensive-wards:overlay"></div>
+  <div class="cost" id="white:defensive-wards:cost"> - 4 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Defensive Wards </h4>
+  <div class="option-description">
+Where Offensive wards can damage an invader or alert you to their presence, Defensive wards are based around protecting you from intruders. If you are camping out in the woods, pop down a Defensive ward near your camp and monsters are repelled; you won't need a person to stand guard. They are particularly effective at repelling anything demonic. Even if they manage to get close, they can't interact with the ward. Some Defensive wards provide a healing effect but those are mild. They are best used if you are stationary.
+  </div>
+</div>
+<div class="option" id="white:blessings">
+  <div class="" id="white:blessings:overlay"></div>
+  <div class="cost" id="white:blessings:cost"> - 4 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Blessings </h4>
+  <div class="option-description">
+Blessings covers the vast array of spells that improve your life for some hours or days. They tend to be weaker due to how long-lasting they are, but the are effective nonetheless. Mages that know Blessings are always popular among non-magicians. Some blessings make you better at focusing, others make you feel like Fate is bending to your wil. While a blessing can not directly affect other (ie it cannot make that cute girl blush when you wink at her) you would be surprised how differently the world acts when you feel good.
+  </div>
+</div>
+<div class="option" id="white:shielding">
+  <div class="" id="white:shielding:overlay"></div>
+  <div class="cost" id="white:shielding:cost"> - 6 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Shielding </h4>
+  <div class="option-description">
+When it isn't possible to dodge or Dispel a spell, you have to tank it. Rahter than get attacked directly, the Shielding calls teaches you spells that set up an aura that absorbs or at least weakens other spells before they hit. Shielding has a higher success rate than trying to deflect a spell, as the most used Shielding spell passively protects you; it is always up, until you deactivate it. With a shield up, you can focus 100% on fighting back instead of interrupting your flow to reflect. There is also a spell that applies this aura on others.
+  </div>
+</div>
+<div class="option" id="white:exorcism">
+  <div class="" id="white:exorcism:overlay"></div>
+  <div class="cost" id="white:exorcism:cost"> - 6 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Excorcism </h4>
+  <div class="option-description">
+The ultimate White magic spells, being able to destroy evil spirits, demons and anything else that has possessed a person. It only harms the possessed human if the being is smart and strong enough to ensure collateral damage happens. They do this to have a bargining chip and to make you reconsider Exorising them. Exorcisim is the most mana-intensive spell taught in the school. You won't be able to do much other magic for the rest of the day. If you plan to fight an army of demons you are far better off using the spells taught in Purification.
+  </div>
+</div>
+<div class="option" id="white:purification]">
+  <div class="" id="white:purification]:overlay"></div>
+  <div class="cost" id="white:purification]:cost"> - 8 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Purification </h4>
+  <div class="option-description">
+The White family of spells does contain some combat spells. White mages are popular on the battlefields because they can heal others but also themselves, and a guy that keeps fighting after getting hit is terrifying. The spells taught in Purification share many traits with Lightning spells: they are fast, bright, and best for single targets. Purification spells are most effective against the undead and tend to have high piercing capabilities. The most used attacking spell is summoning javelins of hard light to fire at opponents.
+  </div>
+</div>
+<div class="option" id="white:healing">
+  <div class="" id="white:healing:overlay"></div>
+  <div class="cost" id="white:healing:cost"> - 8 credits - </div>
+  <div class="boxes">
+
+  </div>
+  <h4> Healing </h4>
+  <div class="option-description">
+Unsurprisingly, there are many spells for healing: some deal with replenishing blood, others with broken bones, and some with numbing pain. Common with all spells is a huge mana cost. It isn't easy to regrow a limb and make all the connections add up. Healers are thus highly valued anywhere you go. The class is one of the toughest and you need to spend much time reading up on the material. Messing up a healing spell is always disastrous.
+  </div>
+</div>
+
+          </div>
+        </section>
+      </section>
+      
+      <section id="titles">
+        <h2>Titles</h2>
+        <div class="section-description">
+          <p>
+            As mentioned, students at Migorn are granted a title upon completing their education.
+            The title they gain is reflective of the classes they took and helps with shaping what kind of mage the student wishes to be.
+            <br /><br />
+            It is possible that you may qualify for more than one title. In this case, choose the one that best describes what you want to do.
+            Some titles require a certain number of credits from one color, others demand certail classes.
+          </p>
+        </div>
+        <div class="options top-images row5">  
+          
+<div class="option" id="title:lich">
+  <div class="" id="title:lich:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Lich </h4>
+  <div class="option-description">
+Liches are mages that specialize in the darker arts of magic. They have a tendency to live in isolation and unfortunately often get a bad rap.
+  <div class="restriction">
+Must take more Black classes than any other color.
+  </div>
+  </div>
+</div>
+<div class="option" id="title:sorcerer">
+  <div class="" id="title:sorcerer:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Sorcerer </h4>
+  <div class="option-description">
+Sorcerers are mages who can cast a spell for almost any situation. Sorcerers who do battle are commonly refered to as Elementalists.
+  <div class="restriction">
+Must take more Blue and Red classes than all other colors combined.
+  </div>
+  </div>
+</div>
+<div class="option" id="title:wizard">
+  <div class="" id="title:wizard:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Wizard </h4>
+  <div class="option-description">
+'Wizard' is the general term for a mage that has studied to hone their skills and capabilities. The majority of magic users classify as wizards.
+  <div class="restriction">
+Except for Grey, may take no more than 15 credits from any color.
+  </div>
+  </div>
+</div>
+<div class="option" id="title:witch">
+  <div class="" id="title:witch:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Witch </h4>
+  <div class="option-description">
+Witches mix multiple branches of magic together. They never fight directly, instead using guile and nefarious methods to win their battles.
+  <div class="restriction">
+Must take at least two of the following: Familiar, Curses, Toxic, Conjuration
+  </div>
+  </div>
+</div>
+<div class="option" id="title:druid">
+  <div class="" id="title:druid:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Druid </h4>
+  <div class="option-description">
+Druids are defenders of the forest, both the plants and creatures that dwell there. They only harm those who harm nature.
+  <div class="restriction">
+No Black or Red classes (save for Earth Magic). Must have at 15 credits from Green classes
+  </div>
+  </div>
+</div>
+<div class="option" id="title:alchemist">
+  <div class="" id="title:alchemist:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Alchemist </h4>
+  <div class="option-description">
+Alchemists create and enhance the effects of objects. The best of the best are even able to transmute objects, which leads to easy wealth.
+  <div class="restriction">
+Must take at least two of the following: Jewelcraft, Enchanting, Conjuration
+  </div>
+  </div>
+</div>
+<div class="option" id="title:priest">
+  <div class="" id="title:priest:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Priest </h4>
+  <div class="option-description">
+Priests give blessings and heal the sick. They do not fight humans or monsters in the wild, but do combat and ward against demons.
+  <div class="restriction">
+No Black classes. At most one Red class. Must have 15 credits from White classes.
+  </div>
+  </div>
+</div>
+<div class="option" id="title:defender">
+  <div class="" id="title:defender:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Defender </h4>
+  <div class="option-description">
+Defenders tend to fight in armies ensuring the other troops are not defeated by enemy mages. They mostly avoid direct combat.
+  <div class="restriction">
+Must take at least two of the following: Despel, Reflect, Shielding, Healing
+  </div>
+  </div>
+</div>
+<div class="option" id="title:battlemage">
+  <div class="" id="title:battlemage:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Battlemage </h4>
+  <div class="option-description">
+Battlemages fight the monsters of the world, earning great fame from their deeds. Many go down as legends, imortalized in history books..
+  <div class="restriction">
+Must take at least one of the following: Mana channeling, Martial Arts. Must have at least 15 credits from Red classes.
+  </div>
+  </div>
+</div>
+<div class="option" id="title:spellblade">
+  <div class="" id="title:spellblade:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> SpellBlade </h4>
+  <div class="option-description">
+Spellblades enchant their weapons to be as effective as possible against whatever they are fighting. They have vast knowledge of monsters.
+  <div class="restriction">
+Must take Enchanting. Must have at least 15 credits from Red classes.
+  </div>
+  </div>
+</div>
+
+        </div>
+      </section>
+      
+      <section id="dorms">
+        <h2>Dorms</h2>
+        <div class="section-description">
+          <p>
+            You've got to live somewhere.
+            There are four dorms on campus.
+            Where you choose to live has an impact on who you befriend and what your life outside of class is like.
+          </p>
+        </div>
+        <div class="options  top-images row2">
+          
+<div class="option" id="dorms:pawn">
+  <div class="" id="dorms:pawn:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Pawn </h4>
+  <div class="option-description">
+Migorn understands that classes and exams can be stressful. To combat this, the Pawn dorm is designed to be soothing and sociable. As a result the dorm has attracted many of the students who don't take studying as seriously as the ought to. This is not where you go to get help on your homework. It is however a dorm that facilitates freinships as there is no 'ruling elite' or people vying to be on top of the food chain. Just a bunch of kids that don't want to exclude a stranger, hence they are popular with other dorms too. The commons room is filled with couches and pillows, many students building forts and having play fights together. Alternatively the shelves are stocked with all kinds of board games, with students making up their own games. Most people keep the door to their bedrooms open and chatting can be heard throughout the halls.<br/><br/>Pawns are looked down upon by many students for being lazy and not taking school seriously. It's particularly students from the Rooks dorm that feel this way, and they are the reason why the Pawns don't have a larger budget. Pawns have been asking for a pool for ages but have always been denied. Broken items won't be replaced right away either, so you will be popular if you have enchantment magic and can fix things.
+  </div>
+</div>
+<div class="option" id="dorms:rook">
+  <div class="" id="dorms:rook:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Rook </h4>
+  <div class="option-description">
+Rooks live in a beautiful, clean environment... if you discount the books lying all around. The dorm is the largest, owing in part to the Rooks making up most of the student council. There are many ambitious students in the Rook dorm, or children of rich and influential people who are pressured to work hard an play little. There are many who take their studies very serious, some a tad too much. They don't see too much socialization, and most of the rooms are single-student only, with the doors closed at all times in order to focus. The party organizers work hard to make sure there are events to take stress off, and often ask for help from the Pawns. The cross-dorm events are always the most successful and the most remembered ones. The elites and snobs rarely attend these cross-dorm events, due to their disdain for the 'lazy Pawns. <br /><br /> You can gain a lot of influence over the school by being a Rook, and your odds of being voted into the school council are greater. Besides that, living here gives you plenty of opportunities to netowrk with the children of the elites. That or you could simply be their friend and take off some of their stress. There's many a shy, overworked student to be found, and a friendship could mean the world to them.
+  </div>
+</div>
+<div class="option" id="dorms:knight">
+  <div class="" id="dorms:knight:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Knight </h4>
+  <div class="option-description">
+As the name implies, the Knight dorm is stock-full of people aspiring to become great heros of renown, whether it be by flinging spells or enhancing your body's abilities with magic. When you put so many hotheads together conflict can happen but the older students are doing a good job at deescalating fights (even if some like egging them on). Besides being competitive most people are generally nice an sociable if a tad short on concentration. Expect your door to get knocked several times during a study session. You would need to actively try in order to live in the Knight dorm and not make any friends. Or friendly rivals. <br /><br /> Once per month the dorm hosts mock battles or makes an expedition. Twice per year they host a spectacular competition where all students are allowed to participate and tickets are sold throughout the land. Last year the hosts managed to smuggle in some monsters. The teachers where not happy and the hosts were punished harshly, even if they were viewed as heroes by the spectators and other students. How you are viewed and treated by the other students depends on how well you do in these mock battles. The dorm uses a ranking system, where you gain perks over the students below your rank. It is used for mild teasing, and you need to be able to handle the banter.
+  </div>
+</div>
+<div class="option" id="dorms:bishop">
+  <div class="" id="dorms:bishop:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Bishop </h4>
+  <div class="option-description">
+The Bishops tend to shy away from any drama caused by other dorms, and instead keep to themselves. They see themselves not as belonging to a dorm, but just being students. The dorm is thus ideal for those who want to do their own thing and be social on their own terms. This does mean many other students feel Bishops come off as being aloof. The commons room is a small and usually empty as people either spend time in the community garden, in their rooms or with friends from the other dorms. In the basement is some fairly basic apothecary cauldrons that students are encouraged to use. As the catacombs are nearby the dorm is one of the few places on campus where one can meet ghosts. They are docile, but do love a good prank. Going on a date nearby will end in catastrophe, but will at least make for a great story. <br /><br /> When harvest season comes anyone who has grown crops, made potions, or anything else they wish to sell can go on an expedition to the closest city and try to sell their items. It lasts a fortnight and is also treated as a mini-holiday. It is one of the few events that let students lollygag in a city, with most expeditions being school related such as gathering ingredients or fighting monsters.
+  </div>
+</div>
+
+        </div>
+      </section>
+      
+      <section id="living-conditions">
+        <h2>Living Conditions</h2>
+        <div class="section-description">
+          <p>
+            All dorms let you choose whether to live alone, in pairs, or in groups of four students.
+            The school tries hard to make sure all roommates are in the same grade, but some may have to live with an older/younger student.
+            All dorms have three kinds of room setups, although some are more common in some dorms than others.
+          </p>
+        </div>
+        <div class="options  top-images row3">
+          
+<div class="option" id="living-conditions:single">
+  <div class="" id="living-conditions:single:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Single </h4>
+  <div class="option-description">
+You will be living alone for the whole three years your education lasts. While it does mean you get privacy, don't have to deal with snoring, and have plenty of room to yourself; it can get lonely at times.
+  </div>
+</div>
+<div class="option" id="living-conditions:roommate">
+  <div class="" id="living-conditions:roommate:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Roommate </h4>
+  <div class="option-description">
+You will be sharing a room with one of your friends. Try not to goof off too hard, and share the cleaning evenly! Make sure to choose someone you mix well with. (Pick one of your same-sex companion to live with)
+  </div>
+</div>
+<div class="option" id="living-conditions:group">
+  <div class="" id="living-conditions:group:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Group </h4>
+  <div class="option-description">
+You will be living in a huge room together with three other people. It can be a handful, but you won't be alone. (Pick 3 of your companions to live with. You four must all be the same sex OR be split evenly two-to-two)
+  </div>
+</div>
+
+        </div>
+      </section>
+      
+      <section id="mysteries">
+        <h2>Mysteries</h2>
+        <div class="section-description">
+          <p>
+            A magical school naturally has plenty of (super)natural phenomena going on.
+            For each year, pick a mystery to investigate.
+          </p>
+        </div>
+        <div class="options  top-images row4">
+          
+<div class="option" id="mysteries:lounge">
+  <div class="" id="mysteries:lounge:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Lounge </h4>
+  <div class="option-description">
+Each week the faculty of Migorn create a complex muti-part puzzle for the students to solve. You and a group of friends can team up to solve this puzzle, testing both your intelligence, knowledge, and skills as a mage. By completing the puzzle in full, you gain access to the mythical Lounge, a special room that changes locations every week. Inside there will be snacks from all corners of the world, as well as fun activities to pick from. One week might be a pool party, while another week might have an all you can eat buffet featuring exotic foods. <i>In theory you could stumble upon the room at random, but given the size of Migorn the odds are exactly nil.</i>
+  </div>
+</div>
+<div class="option" id="mysteries:catacombs">
+  <div class="" id="mysteries:catacombs:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> The Catacombs </h4>
+  <div class="option-description">
+Deep beneath the Bishop dorms ie the catacombs. Keys aren't given out to just anybody but you came accross one. Skeletons lounge about, and ghosts wail, with many visitors giving up after only exploring the first few rooms. You'll need nerves of stell, or plenty of Black classes, to not cower in terror like the others. If you do manage to persevere you will find the ghosts come to respect you: The trickster will be too bored of you to scare you, and more helpful ghosts can lead you to secret areas with items lost over the years. Remember to always check for mimics!. Do be careful, as the catacombs are very extensive, and not everything down here is friendly..
+  </div>
+</div>
+<div class="option" id="mysteries:hidden-library">
+  <div class="" id="mysteries:hidden-library:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Hidden Library </h4>
+  <div class="option-description">
+Migorn has an impressive library, so vast that maps are posted to help students find their way back after being buried in a book for hours. While visiting the library one dy, hushed voices coming from seemingly nowhere will direct you down hallways with progressively more cobwebs until you find an abandoned room. As you walk, the voices become louder, but hush completely once you walk inside. In this room with naught but a cushy chair and books stacked high you will find ancient scrolls in an unfamiliar language. When you try to read texts, the words words will begin to make sense and you will uncover hidden truths and find forgotten spells.
+  </div>
+</div>
+<div class="option" id="mysteries:study-hall">
+  <div class="" id="mysteries:study-hall:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Study Hall </h4>
+  <div class="option-description">
+Every now and then, you will find a room that seems out of place. The door is never around when you are walking with someone. If you enter , you will find a large plain room with unoccupied desks. On top of the teacher's desk are a stack of paper with a single pen, with a spectral woman(?) sitting behind it. They stand immobile, facing away. This mute teacher will help you study for any class, being able to pull notes out from a seemingly bottomless briefcase. When you get stuck and stare at her 'face', ideas rapidly begin to flow into your mind. Time passes slower inside while you study: an hour inside may be as little as twenty minutes outside.
+  </div>
+</div>
+<div class="option" id="mysteries:vending-machine">
+  <div class="" id="mysteries:vending-machine:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Vending Machine </h4>
+  <div class="option-description">
+There's an elusive vending machine, unlike any other on the campus: it accepts any type of payment that can fit inside the slot, and not just money - though, trying to cheat it with fake money results in a (mostly) harmless shock. Upon paying and pressing the button, a random snack or beverage will be dropped down the chute and can be consumed. Perhaps it is five plain old chocolate bars, or maybe it is a packet that can change any food into becoming fizzy, or even two magical gummy cowboys having a shoot off, before turning back into normal delicious candy. The machine switches locations when you look away after use.
+  </div>
+</div>
+<div class="option" id="mysteries:beautiful-mirror">
+  <div class="" id="mysteries:beautiful-mirror:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Beautiful Mirror </h4>
+  <div class="option-description">
+While walking around campus one day you trip over a peculiar item. Said item turns out to be an intricate and delicate mirror, with no owner in sight. You quickly discover that upon staring into the mirror while thinking of someone, you will see a memory played out as if you were in their shoes. These memories usually concern some problem or are painful. As the events play out before your eyes you will begin to feel the emotions they did at the time: love, anger, joy, heartbreak, all of their emotions will be laid bare before you. The closer you are to a person, the more private the memories will be and you will be able to view for longer.
+  </div>
+</div>
+<div class="option" id="mysteries:eternal-student">
+  <div class="" id="mysteries:eternal-student:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Eternal Student </h4>
+  <div class="option-description">
+There is a student a Migorn that takes the exact same classes every year. You never noticed them before, and if you did they quickly slipped from your mind. But now you do. Teachers don't seem to care much when you point it out, and in fact it almost seems like tradition to continue to have them in the same classes. Truth is this student died before graduation, and now lives at Migorn in an abandoned room, attending classes each day with everyone else. You needed know how to communicate with spirits and ghosts to talk to the student. <br /><br /> If they could pass their exams, would they be able to move on?
+  </div>
+</div>
+<div class="option" id="mysteries:imposter">
+  <div class="" id="mysteries:imposter:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Imposter </h4>
+  <div class="option-description">
+Migorn faculty have informed the students that anyone acting strangely may be a doppleganger, and to notify the teachers if you suspect someone. Due to a misunderstanding, you saved the doppelganger from getting caught. Ever since then, you feel as though some people around you are acting oddly - perhaps a cute girl is staring at you through lunch. A lot of students are asking you for directions, far too many to be coincidence, especially when most of them ask if you can walk with them. Eventually it will be revealed these are all the doppelganger (to no surprise).  The doppelganger is actually not that good of an actor, and blushes easily when flustered or caught in the act.
+  </div>
+</div>
+<div class="option" id="mysteries:slime-pet">
+  <div class="" id="mysteries:slime-pet:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Slime Pet </h4>
+  <div class="option-description">
+While exploring the large wilderness surrounding the campus, you find a blue ooze, a slime. As it watches you it tilts its 'head' to the side showing curiosity, not hosility. The sime heads towards you, nuzzling against your eg like a cat might do. From then on the slime began following you around, showing affection as well as a blob of goo can. As house pets and familiars are allowed at Migorn there is no issue with having a slime pet, but others may be cautious of it. The core of a slime contains a strong acid, and it eats by dissolving food in the core. This particular slime only has a weak acid: it will sting to stick your hand in its core but it won't dissolve unless you keep it there overnight.
+  </div>
+</div>
+<div class="option" id="mysteries:lady-of-the-lake">
+  <div class="" id="mysteries:lady-of-the-lake:overlay"></div>
+  <div class="boxes">
+
+  </div>
+  <h4> Lady of the Lake </h4>
+  <div class="option-description">
+Rumors have been spreading about a beautiful woman in the forest lake, who beckons people to go near her. While exploring the school campus, you find yourself at this very lake, as she calls out to you by name. The lady of the lake is a beautiful spirit who is bound to the lake. She is very lonely, and desperately seeks attention, offering you small trinkets in exchange for simply spending time with her. Dispite her having very little interaction with others, she is very funny, and likes to practice her jokes when alone. She can be awkward at times from all othe isolation She'll eventually fall for you if you visit her consistently, though beware that she is prone to jealousy.
+  </div>
+</div>
+
+        </div>
+      </section>
+      
+      <section id="friends">
+        <h2>Friends</h2>
+        <div class="section-description">
+          <p>
+            What's school without classmates and friends?
+            The first few weeks at Migorn will focus heavily on making friends, as well as getting to know the academy.
+            You'll have a bunch of different classes, with different classmates in each one.
+            Choose <b>5</b> from the list to befriend.
+            If you are living with one or more roomates, choose which of them you are living with.
+          </p>
+        </div>
+        <div class="options top-images row4">
+          
+<div class="option" id="friends:mary">
+  <div class="" id="friends:mary:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Mary </h4>
+  <b> Lich </b><br /><br />
+  <div class="option-description">
+Mary is one of the more beautiful students attending Migorn, and is something of an idol at Migorn. Her family is fairly rich, and because of this she will often buy gifts for her roommates. Mary is practicing to become a Lich, taking all the Black classes except Puppeteering. She also dabbles in illusions and nature magic. She loves the wilderness, and animals seem to have an unnatural attraction to her. It is not uncommon for her to spend all day in the forest and watching the animals all day. On occasion she brings food to them, too. <br /><br /> Mary is fairly outgoing and impulsive, never afraid to say she likes something or someone. If she truly loves someone, she can be very affectionate. Outside of love, she is generally very blunt, and will give her honest opinion on almost anything she is asked. She is not a fan of sunny days, as it hurts her eyes. She will generally only go outside on rainy or cloudy days, citing that things feel more peaceful when the weather is like this anyhow.
+  </div>
+</div>
+<div class="option" id="friends:caelica">
+  <div class="" id="friends:caelica:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Caelica </h4>
+  <b> Battlemage </b><br /><br />
+  <div class="option-description">
+Joining Migorn to better increase the potency of her weak magic, Caelica takes her training her seriously. She is constantly pushing herself to the limit in an attempt to become stronger. In fact, once classes are over she will usually head out and train even more. It is not uncommon for her to suffer from mana fatigue every few weeks. If you are her roommate, she may ask if you could watch her train, just in case she passes out again. If you say no, she will leave it at that and go alone, but if you say yes you will see firsthand just how dedicated she is to her training. She has a surprising amount of agility and strength, surpassing many humans and even quite a few beastmen. <br /><br /> She won't normally go out of her way to help others she does not know, but she will drop everything if it means protecting those that she loves. She mainly focuses on learning martial arts and body channeling, and finds that she has the most fun when facing an opponent that is just as strong as her.
+  </div>
+</div>
+<div class="option" id="friends:gabe">
+  <div class="" id="friends:gabe:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Gabe </h4>
+  <b> Priest </b><br /><br />
+  <div class="option-description">
+A priest in training, Gabe comes from the island of Formiel. Due to his large size and clothing, Gabe is easily spotted in a crowd. He is almost never seen without his mask on, but this doesn't seem to be a tradition from his home island. He takes life pretty easily and will take naps often. He has taken all of the white classes, and has some basic fire magic, but claims he only picked the class on a whim to light up dark rooms and caves. He doesn't take the fire class seriously, and is passing the course by the skin of his teeth. <br /><br /> Gabe is a whiz when it comes to cooking delicious foods and his jokes are funny. Every now and then he may throw some comedic jabs. He is also pretty good at being on the receiving end of things, and won't mind any fat jokes made towards him. While he hasn't seen that much of the world, he is an adventurer at heart, and is surprisingly adept at getting used to living conditions. He can take a real beating too, but he is fairly average otherwise.
+  </div>
+</div>
+<div class="option" id="friends:carrie">
+  <div class="" id="friends:carrie:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Carrie </h4>
+  <b> Witch </b><br /><br />
+  <div class="option-description">
+Carrie may seem like a good natured and serious student, but on the inside, sh is anything but. She is spiteful and liable to hold grudges against those she feels has wronged her. She also has a loving side, and is prone to falling in love. Going out for a stroll, studying together, and even attempting to build a shrine out of her lovers used trash all seems like normal behavior to her. She's extremely possessive, and will go out of her way to curse, imitate, or posses those who get too close to her crush. She is willing to pursue any classes her crush asks of her. <br /><br /> If she falls in love with you, she will try her hardest to cut out some of the weirder behavior should you wish it. Love her back, and sh will take care of all your needs. Her favorite thing to do is to write romance novels, typically self-inserting both you and herself as the main characters. No matter how much she loves you, she will try and deny you access to the novels, stating that it is too cheesy and sappy. (It is.)
+  </div>
+</div>
+<div class="option" id="friends:alice">
+  <div class="" id="friends:alice:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Alice </h4>
+  <b> Wizard </b><br /><br />
+  <div class="option-description">
+You have manage to obtain a teacher as a roommate. The staff at Migorn hates paperwork and would prefer not relocating her, and so Alice has decided to make the best of it. She believes that by rooming with you, she will be able to build a better relationship with her other students. She may be brand new to working in a classroom, but she has knowledge in a lot of different fields. Despite her natural talent, she has decided to teach Magic 101. Even if you don't take Magic 101, she will be able to give you a few friendly pointers on how to better manage your mana. She may even give you a few private lessons for general studying if you need the extra help. If you do take her class, be prepared to have her call your name a lot. She is generally very kind, and friendly, the type of person who's always willing to lend a hand to those in need. <br />Note: She will get defensive about her outfit if you ever bring it up under any context.
+  <div class="restriction">
+Must pick her to be your roommate.
+  </div>
+  </div>
+</div>
+<div class="option" id="friends:rodmei">
+  <div class="" id="friends:rodmei:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Rodmei </h4>
+  <b> Defender </b><br /><br />
+  <div class="option-description">
+Rodmel is one tough cookie. He can block and deflect spells most other mages his age would have trouble with. Unfortunately, Rodmel is not very fast, and has trouble keeping up with fast paced attacks that come from multiple angles. Offensively he is below average, and in a duel he will try to wear out his opponent by forcing them to use up all their energy before he goes in for the final strike. He relies on defensive spells more than anything else. <br /><br />He is an extremely loyal friend, and will do whatever it takes to keep his friends safe, even going so far as to risk his own life to save those he holds dead. His loyalty is so strong that he could get up even when a normal ma would have already passed out from the pain. Of course at this point you shouldn't expect him to be able to do very much, but it might buy you and your group some time. Rodmel can be very charismatic, but finds it hard to keep a clear head around women.
+  </div>
+</div>
+<div class="option" id="friends:glamir">
+  <div class="" id="friends:glamir:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Glamir </h4>
+  <b> Sorcerer </b><br /><br />
+  <div class="option-description">
+An up and coming star in Migorn, Glamir specializes in the elements of ice, water, and electric, while also learning some blue spells like reflect and dispel. She is a very capable student, and can definitely give you some minor advice so you can get a bit more control. She is also great at studying, and wouldn't mind you joining her so long as you stay on topic. She is refined and feminine, enjoying calm peaceful days where she can just sit around. Despite her easy going personality, she is one of the better mages at Migorn. <br /><br /> If you ever visit her, she will brew you a cup of tea, and almost always seems to have a couple of small pastries. She is fairly outgoing, but dislikes larger crowds. She feels immense pressure from her parents who want her to reach the top of her class, yet she doesn't care as much, and wishes she didn't have such a high affinity for it. Don't prod her much about her problems, and you will get along fine.
+  </div>
+</div>
+<div class="option" id="friends:pelama">
+  <div class="" id="friends:pelama:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Pelama </h4>
+  <b> Lich </b><br /><br />
+  <div class="option-description">
+Pelama is a powerful lich, specializing in darkness, summoning, and necromancy. It would be safe to say she is the top student in these fields. Despite this, most of the other students at Migorn tend to avoid her. It is not uncommon to hear her speak in riddles or laugh maniacally like an over the top evil villain. Despite how she is actively avoided, Pelama doesn't seem to care all the much about what others thing, and will keep up her act. She is not very good at studying, and will actively go out of her way to slack off in any class that is not darkness, summoning, or necromancy. <br /><br /> If you ever decide to befriend her, she will give you a cute nickname which will seem out of place for her. This isn't out of love, as it is merely her way of saying that she is thankful to have you as a friend. For then on she will invite you on outings, supposedly so you can obtain the power to establish a new world order. If you ask her way she acts so over the top, she will stutter and hastily try to change the topic.
+  </div>
+</div>
+<div class="option" id="friends:sil">
+  <div class="" id="friends:sil:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Sil </h4>
+  <b> Spellblade </b><br /><br />
+  <div class="option-description">
+Sil is an aspiring mage, studying to become a force to be reckoned with, one who could end the tyranny and blight that plagues the world. He is extremely good when it comes to studying and understanding the principles and theory of magic, but has trouble casting spells in actual practice. Because of this he takes his studies very seriously, and will often ask you or others for help. He would be extremely grateful if you could teach him, and will hook you up with his notes and if you are lucky, maybe a few miscellaneous spells he has managed to find in the library. <br /><br /> Sil may be a slow learner, but as he grows older he will quickly grow in power as he gets the hang of magic and learns more complex spells. Eventually he may even make his own. His favored weapon is the bow and arrow, as he likes to enchant each arrowhead individually, and loves the chaotic nature of pulling an arrow out at random. He also has a knife at his side, but he is not that proficient in close range combat.
+  </div>
+</div>
+<div class="option" id="friends:lynne">
+  <div class="" id="friends:lynne:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Lynne </h4>
+  <b> Sorcerer </b><br /><br />
+  <div class="option-description">
+Lynne is a powerful oracle excelling greatly at divination and scrying, and has some proficiency with electricity. She has a familiar in the shape of a bird made out of clay. Lynne doesn't normally rely on her abilities as an oracle, and will only use her powers when asked, or when on a quest or a mission. Despite this, she is extremely perceptive and can easily tell when someone is lying, as well as their general emotions. Almost nothing gets past her, and because of this Lynne has grown quite bored. She eagerly anticipates anything new or exciting, and is very willing to try out new activities. <br /><br /> Lynne isn't really one for combat, and instead likes to be on the sidelines directing others with her knowledge and foresight. She is amazing at figuring out other strategies, and considers battle to be like chess, with herself as the king. She really likes nature, and knows how to survive in the wilderness. If you can be spontaneous and keep her guessing you will be one of her best friends.
+  </div>
+</div>
+<div class="option" id="friends:yuuko">
+  <div class="" id="friends:yuuko:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Yuuko </h4>
+  <b> Priest </b><br /><br />
+  <div class="option-description">
+Yuuko wants to help people, and has decided to train in white magic to become a priestess. However many seem to think her personality clashes with her ideals. Yuuko is not your typical shrine maiden, she is abrasive, hotheaded , and prone to starting fights for lesser reasons. If anyone dares to make fun of her or her friends, she will retaliate with insults or her fists. She doesn't have much offensive magic, and mainly focuses on the basics of white an blue magic, while letting her fists do the talking if she ever needs to. <br /><br /> Yuuko's lack of magic doesn't slow her down in fights and she is very efficient in combat. Yuuko also happens to be absurdly courageous. It is extremely hard to frighten or break her. If you befriend her, don't expect to make many friends. Yuuko also doesn't have much modesty and may walk around with nothing but a towel or a loose shirt and panties in her dorm. She can be very playful, but will get offended from inappropriate behavior.
+  </div>
+</div>
+<div class="option" id="friends:ventkalo">
+  <div class="" id="friends:ventkalo:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Ventkalo </h4>
+  <b> Druid </b><br /><br />
+  <div class="option-description">
+Ventkalo is an explorer at heart. He wants to see all that this world has to offer, and is attending Migorn to fulfill his dreams. He wants to learn every green class, and is especially adept at talking to animals and spirits. He also knows some earth magic, as well as how to use the spear. Venkalo is a bit messy, and will sometimes track mud into a building while he absentmindedly talks to himself. He enjoys the thrill of combat when he's up against large or exotic beasts.<br /><br />He is a friendly guy, and will usually do little things for you as a token of his friendship. He makes trophies out of those he slays, and may do the same for you should you ask. He has a keen eye for danger, and seems to be prepared for almost any situation, especially when it comes to food and water. He finds it hard to stay in one place for too long, but this restlessness fade as he grows older.
+  </div>
+</div>
+<div class="option" id="friends:violet">
+  <div class="" id="friends:violet:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Violet </h4>
+  <b> Spellblade </b><br /><br />
+  <div class="option-description">
+After struggling for what felt like ages with ordinary combat spells, Violet eventually gave up on them: she doesn't have it in her to study for hours to get a pronunciation just right, or the quick wits to alter a spell on the run. Instead she has found a love for enchantments: She has all the time in the world to get the spells just right, and she loves feeling prepared for a situation ahead of time. There is less risk to freak out and be paralyzed by fear in the heat of the moment, not that she's ever felt that. When she fights, she moves effortlessly and without needing to consider her actions. <br /><br /> Unfortunately, that lack of consideration also applies to her mouth. She is too quick to say things that she may end up regretting only a moment later, and gets in trouble for it regularly. Thanks to her physical prowess these incidents rarely end in fights. Her being silent is the most obvious sign that she is terrified of mucking things up by saying the wrong thing.
+  </div>
+</div>
+<div class="option" id="friends:pyhno">
+  <div class="" id="friends:pyhno:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Pyhno </h4>
+  <b> Alchemist </b><br /><br />
+  <div class="option-description">
+When Pyhno discovered she could do basic magic, she made her whole flock so proud of her. SHe adored the attention and started associating magic with smiles and happiness. When she feels sad, she casts beautiful fireworks, and when she feels glad she does the same. When you or any of her friends feel down she will put on a magic show and finish it off with a soft wing-hug and sweet if strange bird-songs. If you are doing too terribly, she will show off her nifty conjuring spell where she creates juice-boxes filled with wine. It is a strong drink and she has yet to figure out how to tweak the spell to make it less potent. <br /><br /> Unfortunately she has been struggling quite a bit with more advanced spells: the language of magic is tricky to her and especially spells that use different sounding words are hard to pronounce. She practices hard on those spells she can speak easily, hoping that by becoming a master of these she can compensate for her weakness.
+  </div>
+</div>
+<div class="option" id="friends:mabel">
+  <div class="" id="friends:mabel:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Mabel </h4>
+  <b> Druid </b><br /><br />
+  <div class="option-description">
+Mabel took the phrase 'Survival of the fittest' a bit too close to heart: he view just about anything he can as a competition. There is a winner and a loser, it is as simple as that. It has made him incredibly strong and gain rivals, but no real friends. He is also not big on sharing as vulnerability could be used against him. Unfortunately it means he often feels on edge: he always must know where the exists are and has formulated detailed plans for how to deal with any king of attack. If you are ever in trouble he knows just how to get out of it, and he will be the first person to throw punches if needed. <br /><br /> His competitiveness and striving for greatness will surely rub off on you and any other friends you have made. If no one else does it, he will naturally try to be the leader of the group, but he can be put in his place. All it takes it beating him in a duel. He even accepts an unfair duel because that is how life works: you cannot always pick your battlefield. If you make him submit to you, he chills out a bunch.
+  </div>
+</div>
+<div class="option" id="friends:jewels">
+  <div class="" id="friends:jewels:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Jewels </h4>
+  <b> Witch </b><br /><br />
+  <div class="option-description">
+With a few friends growing up thanks to parents that dabbled in darker magics, Jewels spent most of her time studying magic. She wasn't too interested in the most topics of magic: but became positively ecstatic when she learned about familiars. Being able to make her own friend filled her with joy. She got to work and made Mouse, a basic and weak familiar with only an owl feather for a core. It has the intelligence and power of a regular owl, but doesn't age and is one of her closest friends. <br /><br /> Despite taking some White classes, she still felt she should get the Witch title, since that is what her parents are. She is taking both Offensive and Defensive wards, as well as Curse object. In her own words, 'there is no such thing as being over-prepared'. If you share a room with her, accept that she will be putting up wards already on day one. Her parents have been raided by 'do-gooders' before and she simply doesn't feel safe without the wards.
+  </div>
+</div>
+<div class="option" id="friends:moire">
+  <div class="" id="friends:moire:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Moire </h4>
+  <b> Wizard </b><br /><br />
+  <div class="option-description">
+Since Moire was a little girl she has wanted to do good in the world, and make her parents proud of her. Growing up was difficult but once she learned levitation spells it got a whole lot easier. She doesn't trust her spells enough to use them on her head, not that any have failed in the past. She is just understandably careful about her head. <br /><br /> At first she didn't want to learn any Red spells because she does not want to fight at all... but then she remembered it is hard to defend yourself when you head can accidentally fall out of your hands. Sh is squeamish from even thinking about hurting someone, and her progress in the Red classes are suffering. She is doing excellently in all other classes, but not the ones where others are her target. She prefers practicing in private because when she gets in the zone she forgets about the outside world. Bringing her back out of the zone usually results in her jumping and knocking something over, and getting embarrassed.
+  </div>
+</div>
+<div class="option" id="friends:savvas">
+  <div class="" id="friends:savvas:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Savvas </h4>
+  <b> Sorcerer </b><br /><br />
+  <div class="option-description">
+It was not Savvas' own idea to study magic: he wanted to study the blade, as he had up until then. His father insisted, saying that knowledge is how he would get ahead in life. He go into Migorn through nepotism mostly, as he hasn't practiced his magic in a long time. Not since his mother, who used to teach at Migorn, left him and his father. She was a Priest which he always thought was puzzling considering what she did to him and his father. The day she left he vowed he would be a better parent and partner than she was. <br /><br />Savvas takes his time at Migorn seriously even if he is taking fewer classes than he can. He feels many of the high-credit classes are too far above his level. He spends sleepless nights worrying over exams and feeling behind. It doesn't help that he relies on his physical abilities so much in combat practice: he doesn't use spells to dodge and disarm his opponent, only his raw strength. He has been offered private tutoring, but his pride would be wounded.
+  </div>
+</div>
+<div class="option" id="friends:serene">
+  <div class="" id="friends:serene:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Serene </h4>
+  <b> Sorcerer </b><br /><br />
+  <div class="option-description">
+It is common for would-be-mages to go to a magical academy when they are around fourteen to sixteen years of age. Serene however only joined the school at the age of nineteen. Her late joining stems from roaming the world with a close friend once the two felt they could defend themselves. The journey ended up lasting longer than planned as they joined up with bandits against Serene's better judgment. She eventually left to join Migorn as her friend stayed. <br /><br /> With age comes wisdom and power but sadly Serene developed a bit of a superiority complex. Combat classes will progress too slowly for her, and she has no patience for students that waste the teacher's time: she will stare daggers at any that asks a question to the teacher that seems so below her own abilities. Naturally sh is not popular with the slower students, but she has gained a group of fan girls that vie for her approval. There is even infighting among her fans for her heart, and they send her love letters too.
+  </div>
+</div>
+<div class="option" id="friends:juniper">
+  <div class="" id="friends:juniper:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Juniper </h4>
+  <b> alchemist </b><br /><br />
+  <div class="option-description">
+What Juniper lacks in size she more than makes up for by the size of the fight in her heart. She knows how to fight back with mean comments: joke about her stature and she will roast you hard enough to make you seek medical attention. Though most of the time she ends up looking adorable, the way her cheeks puff up and her voice goes shrill when she tries to respond. That's why she has learnt to use curses and poisons to play the long game against bullies instead. It does upset her she can't get the Priest title thanks to those classes...but how can a trickster NOT get them? They are too much fun! Oh, to see some proud rich boy's eyes fill with fear when he realizes she put something in his juice and he suddenly has to rush off... priceless. <br /><br /> Ultimately Juniper would like to roam the world with an adventurer, get strong together and eventually fight some big bad villain. She hopes her Alchemy title won't affect her odds, but maybe she could find a partner while at Migorn.
+  </div>
+</div>
+<div class="option" id="friends:damien">
+  <div class="" id="friends:damien:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Damien </h4>
+  <b> Lich </b><br /><br />
+  <div class="option-description">
+Ranging from the war torn lands to the north, past the great sea, it was only natural that Damien would develop an interest in the occult. His best friend is the talking skull he keeps on his desk, the first undead he successfully reanimated. While Damien is not prone to talk much, his skeleton sure does, to a mortifying degree. Talk to it when Damien is not around and it will spill all his secrets. It has no filter. It will happily share all the things he has said about Frieda, including the strange comment on wanting to brush her luscious hair. <br /><br /> Despite keeping to himself during classes and outside school he still has several girls after him. His shyness around girls gets misinterpreted as him being 'mysterious'. He is always doing his best to act stoic when he gets 'assaulted' by a cheery girl that wants to hang out. In reality he wants to blurt out how hot she is and how he can't stop staring when she moves; but he is smart enough to ask to be excused and leave.
+  </div>
+</div>
+<div class="option" id="friends:frieda">
+  <div class="" id="friends:frieda:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Frieda </h4>
+  <b> Priest </b><br /><br />
+  <div class="option-description">
+Hailing form the North where only the strong don't get picked up by wyvens and gryphons, Frieda is a mad powerhouse. Ultimately the decision to become a mage and not a warrior stems from her desire to heal wounded allies, and her strong religious views. She must always read in her scriptures before bedtime, and falls asleep hugging her book with a smile. She dislikes being called a zealot, which she does often due to the rituals she must follow: She may only eat when all others have and must put the needs of others before her own. Denying a stranger hospitality is one of the greatest sins, as is showing weakness. <br /><br />This last point particularly bothers her: she feels anxious when out of her armor, as if everyone is staring at her and commenting on her. When armor-clad she feels strong, invulnerable and ready to face any danger. As such she wears her armor whenever possible. When she cannot, she wears thick clothing that shows no skin and a hood to cover her head. 
+  </div>
+</div>
+<div class="option" id="friends:zieki">
+  <div class="" id="friends:zieki:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Zieki </h4>
+  <b> Defender </b><br /><br />
+  <div class="option-description">
+When Zieki started showing signs of being able to cast magic she didn't think much of it. Why would she need magic when she can breath fire and fly with her wings? She can fight just fine with her claws, and the idea of being a hero was not on her mind. Still, going to Migorn was her best chance of meeting people that don't have dragon blood in their veins, and those old farts are too lazy for her. She misses the feeling of being challenged, being driven to get stronger, faster. The banter between rivals and being proud of your own achievements. Of course she is mainly into physical challenges, not those requiring reading dusty books. <br /><br /> As is common with most half-dragons, they are slow to build trust with non-dragons. Once you are friends she will protect you as fiercely as she would a hoard: An insult or attack on you is an attack on her, and she won't let that slide. You will know she treasures you if she ever offers to show you her hoard.
+  </div>
+</div>
+<div class="option" id="friends:kriras">
+  <div class="" id="friends:kriras:overlay"></div>  <div class="boxes">
+
+  </div>
+  <h4> Kriras </h4>
+  <b> Wizard </b><br /><br />
+  <div class="option-description">
+You will often see Kriras wandering the halls, mumbling to himself about spells and incantations. He is too deep in thought to notice anything else going on which often leads to him wandering where he is not supposed to go. Like the time he stumbled into a girls' locker room and discovered some of them were less than happy. He did get some smiles though, and a few weird letters he didn't want to respond to. <br /><br />After graduating Kiras is hoping to continue studying magic. Inventing new spells and knowing other uses excites him. It is why most of his classes cover the basics of all fields, so he can find the best field to specialize in: whether that is necromancy or making automata is not so important as discovering new things. Having someone write a book over his life and accomplishments is Kriras' biggest wish, not that he would ever admit to it. No, he would only focus on how noble his goal is and pretend not to blush and gush inside when others call him a genius.
+  </div>
+</div>
+
+        </div>
+      </section>
+      
+    </main>
+
+    <footer>
+      <h2>Credits</h2>
+      <div class="section-description">
+      Based on the <a href="https://imgur.com/a/qxFStbN">Mage School CYOA</a> by kit and Gammaflux <br />
+      Made with <a href="https://glitch.com">Glitch</a>!
+      </div>
+      <!-- include the Glitch button to show what the webpage is about and
+      to make it easier for folks to view source and remix
+      <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+      <script src="https://button.glitch.me/button.js"></script>
+       -->
+    </footer>
+
+  </body>
+</html>

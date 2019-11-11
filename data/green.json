@@ -1,0 +1,58 @@
+{
+  "green:survivalism":
+  {
+    "titleText":"Survivalism",
+    "cost": 1,
+    "imageLink":"",
+    "descriptionText":"A very basic class that focuses on how to survive when you don't have the comforts of a town. It is important for any adventurer to know what to bring and how to set up camp. Basic magical and non-magical traps are taught that can help with catching small animals, but they won't do much against a monster. You will also be taught to identify which mushrooms are edible and which are best to only be eaten at home."
+  },
+  "green:animal-talking":
+  {
+    "titleText":"Animal Talking",
+    "cost": 1,
+    "imageLink":"",
+    "descriptionText":"There are a lot of animals that are intelligent enough to hold a conversation with, if only they could form words. There is a fairly simple spell that lets you hook up a telepathic connection with such an animal. This lets them speak to you in your native language, assuming they want to talk. Some only want to talk about food, but other animals can help you out, especially if you are a Beast tamer. You could convince a bird to spy for you, and an enemy may ignore it since it was not magical."
+  },
+  "green:spirit-talking":
+  {
+    "titleText":"Spirit Talking",
+    "cost": 2,
+    "imageLink":"",
+    "descriptionText":"Spirits can be found all around us but few take the time to figure out how to see and communicate with them. Unlike ghosts, who come from people with strong wills that died before accomplishing their goals, spirits are born of nature. They tend to be benevolent, but the Fae are often tricksters, and have a different sense of right and wrong. You will be able to see and chat with spirits, and learn how to infuse them into objects should they agree to. They can be excellent protectors of your house as few mages thing to check for spirits."
+  },
+  "green:animal-form":
+  {
+    "titleText":"Animal Form",
+    "cost": 3,
+    "imageLink":"",
+    "descriptionText":"The ability to transform into one of a handful of forms. The forms are dictated by your personality, meaning which five animals most resonate with you. A dominant person may end up with plenty of predator forms, where a shy person could turn into an armadillio and a turtle. You will start out learning how to transform into the smallest of your available forms. Also, just be aware that your cloths do not change with you, and larger forms may rip apart your cloths. Some of the pervier of your classmates take the class expressly for the nudity."
+  },
+  "green:beast-taming":
+  {
+    "titleText":"Beast Taming",
+    "cost": 3,
+    "imageLink":"",
+    "descriptionText":"Beast and mosters are common in the wild, and knowing how not to be their next meal is highly useful. You will learn to tell similar species apart, their diet, where they may be found, how to track them, and how to tame them. Talented Beast tamers are able to call for the assistance of beasts to fight with them, or even ride them. <br /><br /> The confidence you gain from the class makes beasts more likey to avoid attacking you, and more likely to be intrigued by you."
+  },
+  "green:herblore":
+  {
+    "titleText":"Herblore",
+    "cost": 4,
+    "imageLink":"",
+    "descriptionText":"In the heart of the Green classes is Herblore: knowing how to find and grow herbs and mushrooms. You learn spells to detect plants, making them light up in your vision. Besides that plants tend to like Herbalists and want to be picked by them: thorns won't hurt you and any plants that can defend itself, choosing not t when you are near. That is assuming you are kind to nature of course, and treat the plants well. The illusive Dryands are more prone to appear near Herbalists, as the forest does not feel threatened by you."
+  },
+  "green:growth":
+  {
+    "titleText":"Growth",
+    "cost": 5,
+    "imageLink":"",
+    "descriptionText":"In this class you will learn spells to care for plants, including growing at extreme rates and producing more yield per harvest. Too fast growth can be detrimental to their health, each plant having a different maximal growth speed they can tolerate. The 'ultimate' spell in this class is resurrecting recently deceased plants, though they will need constant care for the first few days. While learning about these spells you also develop a 'green thumb', a passive ability that protects the plants you grow from harmful insects."
+  },
+  "green:potion-brewing":
+  {
+    "titleText":"Potion Brewing",
+    "cost": 6,
+    "imageLink":"",
+    "descriptionText":"Potion brewing is a class where no spells are taught, only how to make potions and undertand the various ingredients. At the end of the semester you should be able to enhance potions, such as masking taste or making them more potent, and brilliant students will even be able to make up their own potions. Ingredients can be expensive or hard to come by, which is usually the bane of apothecaries. Everything from healing potions to invisibility potions are taught, and the students are free to use the class for testing out recipes they found."
+  }
+}

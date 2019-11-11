@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mage School</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  
+  <body>
+    
+    <!-- Side Panel Stuff -->
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+           
+      <h2> Final Course List </h2>
+        <div class="section-description">
+          <table id="finalTable" class="stdTable">
+            <tr>
+              <td><b>Title:</b></td><td><span id="outTitle"><!-- Programatic fill --></span></td>
+            </tr>
+            <tr>
+              <td><b>Coursework:</b></td><td><span id="final-courses"><!-- Programatic fill --></span></td>
+            </tr>
+            <tr>
+              <td><b>Dorm:</b></td><td><span id="outDorm"><!-- Programatic fill --></span></td>
+            </tr>
+            <tr>
+              <td><b>Room Size:</b></td><td><span id="outDormType"><!-- Programatic fill --></span></td>
+            </tr>
+            <tr>
+              <td><b>Mysteries:</b></td><td><span id="final-mysteries"><!-- Programatic fill --></span></td>
+            </tr>
+            <tr>
+              <td><b>Friends:</b></td><td><span id="final-friends"><!-- Programatic fill --></span></td>
+            </tr>
+          </table>
+          
+        </div>
+      <h2> List in Reddit markdown </h2>
+      <div class="section-description" id="redditTable">
+          <!-- Programatic fill -->
+      </div>
+    </div>
+
+    <button class="openbtn" onclick="openNav()">☰ Show Build</button>  
+    
+    <!-- Top Navigation Bar -->
+    <div class="navbar">
+      Remaining Credits: <span id="outCredits"></span>
+    </div>
+    
+    <!-- Main Webpage -->
+    <header>
+      <h1>
+        Mage School
+      </h1>
+    </header>
+
+    <main>
+      <section id="intro">
+        <div class="section-description flavor">
+          <p>
+          It's the dawn of a new year at Migorn School of Magic. 
+          Your first semester begins shortly.            
+          You'll be taught in the fields of magics you are most intersted in, and you get to design your education plan yourself.
+          Before becoming a school of magic, the castle was used to contain a princess who was unable to control her magical powers.
+          When she did finally gain control of her magic, she used her resources to make her old prison into a center for magical learning - hence, Migorn was formed.
+          Though the exterior is archaic, the insides are thankfully kept up to standards, following the newest trends for schools.
+          </p>
+          <p>
+            The education lasts a full <b>3</b> years, over the course of which, you will be able to take up to a total of <b>60 Credits</b> worth of classes.
+          </p>
+        </div> 
+        <h2> Classes </h2>
+        <div class="section-description">
+          <p>
+            Classes are divided into "colors", mostly for ease of talking about classes with your friends.
+            There tends to be "playful" rivalries between colors, but with most students taking a mixture of classes this isn't something to worry about.
+          </p>
+          <p>
+            While classes don't have formal prerequisites, some logically follow others. 
+            For example learning how to detect curses won't help much if you can't see them, and knowing how to make things levitate make it easier to understand how to manipulate gravity of a larger scale.
+          </p>
+          <p>
+            Note that your "title" depends on your classes.
+          </p>
+        </div>
+      </section>
+      
+      <section id="magic">
+        <section id="magic:grey" style="background-color: rgba(128, 128, 128, 0.95);"  >
+          <h3>Grey</h3>
+          <div class="section-description">
+            Few mages graduating from Migorn do so without taking any Grey classes.
+            They are a staple for all mages to learn, and will help you out in your day-to-day life and learning other types of magic.
+          </div>
+          <div class="options top-images row5" id="grey" >    
+            {{&grey}}
+          </div>
+        </section>
+        <section id="magic:blue" style="background-color: rgba(0, 0, 153, 0.95);"  >
+          <h3>Blue</h3>
+          <div class="section-description">
+            Blue magic is mainly focused around support.
+            Combat-wise the spells are more about distracting the opponent and not getting hurt than dealing direct damage.
+          </div>
+          <div class="options top-images row5" id="blue">  
+            {{&blue}}
+          </div>
+        </section>
+        <section id="magic:red" style="background-color: rgba(153, 0, 0, 0.95);"  >
+          <h3>Red</h3>
+          <div class="section-description">
+            The spells specifically based on fighting are covered in the Red color. 
+            Even if you plan to avoid combat, knowing how to fight is a good idea.
+            The practical portion of the classes will take place in the nearby Dungeon, where monsters regenerate each day.
+          </div>
+          <div class="options top-images row5" id="red">  
+            {{&red}}
+          </div>
+        </section>
+        <section id="magic:green" style="background-color: rgba(0, 153, 0, 0.95);"  >
+          <h3>Green</h3>
+          <div class="section-description">
+            Spells belonging to the Green family are nature-based, and many rely more on knowledge than they do on strength.
+            They are some of the least combat-oriented classes taught at Migorn, and are better used off the battlefield.
+          </div>
+          <div class="options top-images row5" id="green">  
+            {{&green}}
+          </div>
+        </section>
+        <section id="magic:black" style="background-color: rgba(0, 0, 0, 0.95);"  >
+          <h3>Black</h3>
+          <div class="section-description">
+            A darker branch of magic, focusing on demons and other foul creatures.
+            As "knowing is half the battle", these courses are still taught.
+            Some of the classes tend to be removed for some years, then brought back into the curriculum once enough students plead for it.
+          </div>
+          <div class="options top-images row5" id="black"> 
+            {{&black}}
+          </div>
+        </section>
+        <section id="magic:white" style="background-color: rgba(255, 255, 255, 0.95);"  >
+          <h3>White</h3>
+          <div class="section-description">
+            White magic is a somewhat mixed batch of spells that mainly revolve around protecting others.
+            The strength of many White spells depends on your belief in them working.
+            You must be confident in your abilities.
+          </div>
+          <div class="options top-images row5" id="white">   
+            {{&white}}
+          </div>
+        </section>
+      </section>
+      
+      <section id="titles">
+        <h2>Titles</h2>
+        <div class="section-description">
+          <p>
+            As mentioned, students at Migorn are granted a title upon completing their education.
+            The title they gain is reflective of the classes they took and helps with shaping what kind of mage the student wishes to be.
+            <br /><br />
+            It is possible that you may qualify for more than one title. In this case, choose the one that best describes what you want to do.
+            Some titles require a certain number of credits from one color, others demand certail classes.
+          </p>
+        </div>
+        <div class="options top-images row5">  
+          {{&titles}}
+        </div>
+      </section>
+      
+      <section id="dorms">
+        <h2>Dorms</h2>
+        <div class="section-description">
+          <p>
+            You've got to live somewhere.
+            There are four dorms on campus.
+            Where you choose to live has an impact on who you befriend and what your life outside of class is like.
+          </p>
+        </div>
+        <div class="options  top-images row2">
+          {{&dorms}}
+        </div>
+      </section>
+      
+      <section id="living-conditions">
+        <h2>Living Conditions</h2>
+        <div class="section-description">
+          <p>
+            All dorms let you choose whether to live alone, in pairs, or in groups of four students.
+            The school tries hard to make sure all roommates are in the same grade, but some may have to live with an older/younger student.
+            All dorms have three kinds of room setups, although some are more common in some dorms than others.
+          </p>
+        </div>
+        <div class="options  top-images row3">
+          {{&living-conditions}}
+        </div>
+      </section>
+      
+      <section id="mysteries">
+        <h2>Mysteries</h2>
+        <div class="section-description">
+          <p>
+            A magical school naturally has plenty of (super)natural phenomena going on.
+            For each year, pick a mystery to investigate.
+          </p>
+        </div>
+        <div class="options  top-images row4">
+          {{&mysteries}}
+        </div>
+      </section>
+      
+      <section id="friends">
+        <h2>Friends</h2>
+        <div class="section-description">
+          <p>
+            What's school without classmates and friends?
+            The first few weeks at Migorn will focus heavily on making friends, as well as getting to know the academy.
+            You'll have a bunch of different classes, with different classmates in each one.
+            Choose <b>5</b> from the list to befriend.
+            If you are living with one or more roomates, choose which of them you are living with.
+          </p>
+        </div>
+        <div class="options top-images row4">
+          {{&friends}}
+        </div>
+      </section>
+      
+    </main>
+
+    <footer>
+      <h2>Credits</h2>
+      <div class="section-description">
+      Based on the <a href="https://imgur.com/a/qxFStbN">Mage School CYOA</a> by kit and Gammaflux <br />
+      Made with <a href="https://glitch.com">Glitch</a>!
+      </div>
+      <!-- include the Glitch button to show what the webpage is about and
+      to make it easier for folks to view source and remix
+      <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+      <script src="https://button.glitch.me/button.js"></script>
+       -->
+    </footer>
+
+  </body>
+</html>

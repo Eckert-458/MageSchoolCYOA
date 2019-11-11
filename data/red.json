@@ -1,0 +1,58 @@
+{
+  "red:earth":
+  {
+    "titleText":"Earth",
+    "cost": 5,
+    "imageLink":"",
+    "descriptionText":"After taking the Earth class you will be able to control the very ground you stand on and shape it to your will. Earth magic is excellent if you are the type to plan several moves ahead. Earth magic is indeed powerful, but it takes time before the ground begins to move. Earth magic is fantastic for both offense and defense, capable of forming walls for cover and causing spikes to shoot out of the ground. Of course, you can also toss a 100 kilo dense boulder at someone's face. You will also be taught geology and learn to extract valuable impurities from the Earth."
+  },
+  "red:toxic":
+  {
+    "titleText":"Toxic",
+    "cost": 5,
+    "imageLink":"",
+    "descriptionText":"Toxic teaches the nastier potions you can mix: Poisons, venoms, acids, and toxins. Effects range frm hallucinations to truth saying and death. You will learn how to amplify the potency of poisons or make the effect (e.g. paralysis) only hit certain parts of the body, such as only the arms. You also learn the subtle tells that you have been poisoned as well as how to brew some common antidotes. Besides potion brewing you learn spells to mask the taste of poisons, summon armor-shredding acid and create darts for poisoning someone at a distance."
+  },
+  "red:water":
+  {
+    "titleText":"Water",
+    "cost": 6,
+    "imageLink":"",
+    "descriptionText":"Water is incorrectly thought to be a purely defensive family of spells. While they are great for absorbing projectile-based attacks, crashing waves can be quite devastating and are amazing at sapping an enemy's stamina. After a few hits they will be too fatigued to fight on. To use Water magic you must first draw moisture from the air or use water from your surroundings; the first many classes are spent teaching this integral spell. Highly talented Water mages can create pure water, unaffected by electricity."
+  },
+  "red:fire":
+  {
+    "titleText":"Fire",
+    "cost": 6,
+    "imageLink":"",
+    "descriptionText":"Fire magic is commonly viewed as the staple of combat magic. Some people even go as far as to say that you are not a real mage if you cannot lob a fireball. Fire spells are generally area based and as such are the bane of armies, and greate for drawing enemies out of cover. Accuracy is not as necessary which  is great because the projectiles tend to be slow-moving and easy to dodge. Outside of combat, fire is great for starting torches and providing heat. You will even be taough a cantrip to produce a small floating fire whcih produces no heat but burns brightly."
+  },
+  "red:lightning":
+  {
+    "titleText":"Lightning",
+    "cost": 7,
+    "imageLink":"",
+    "descriptionText":"Lightnigh is an antithesis to fire magic: it is accurate, fast and best for singling out a combatant. A fire mage may deal with an army, but a lightning mage will assassinate the commander from the other end of the battlefield. The class teaches you how to extract mana from the aire during thunder storms, and even directing or causing thunder to strike. Not many students willl be able to handle the energy in the highest tiered spells. A clever mage will use a water spell to douse multiple enemies in water then fry them with a lighning spell."
+  },
+  "red:ice":
+  {
+    "titleText":"Ice",
+    "cost": 7,
+    "imageLink":"",
+    "descriptionText":"Throughout this course you will learn how to drain heat from objects and even the air, eventually allowing you to chill a room and create ice, snow, fog, and mist. The Ice class is perfect if you only want one Red class, as it offers a good mix of both offense and defense. You will be able to make tough walls to defend from projectiles, and fire swift ice needles at any assailant. Most combat Ice spells have a hard time piercing armor or thick hide. Powerful feats of Ice magic does unfortunately require high humidity or water to be nearby."
+  },
+  "red:wind":
+  {
+    "titleText":"Wind",
+    "cost": 7,
+    "imageLink":"",
+    "descriptionText":"Learn how to summon winds and manipulate the air around you. There are spells for creating an air bubble around your head letting you breathe underwater if you race doesn't allow you to. Wind spells can also greatly enhance your movement speed and allow you to jump great heights. The class also teaches sound-based spells such as echolocation, deafening screeches and making you voice come from random places. Combine with the Imitation and Illusion classes and you will be great at confusing enemies."
+  },
+  "red:combination":
+  {
+    "titleText":"Combination",
+    "cost": 8,
+    "imageLink":"",
+    "descriptionText":"Learn how to combine spells for catastrophic effects. For instance mix a Wind spell with a Fire spell to surround yourself ina flaming tornado, or Earth with Ice to create a boulder that explodes into millions of ice needles upon impact. Combination tends to have no or little effect with spells from the Grey School. It is highly useful for creating an elemental core for the Familiar spell: as magical cores have a great effect on the familiar's personality, Combination is your best bet for deciding what your Familiar is like."
+  }
+}
