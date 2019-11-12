@@ -18,7 +18,7 @@
     "titleText":"Spirit Talking",
     "cost": 2,
     "imageLink":"",
-    "descriptionText":"Spirits can be found all around us but few take the time to figure out how to see and communicate with them. Unlike ghosts, who come from people with strong wills that died before accomplishing their goals, spirits are born of nature. They tend to be benevolent, but the Fae are often tricksters, and have a different sense of right and wrong. You will be able to see and chat with spirits, and learn how to infuse them into objects should they agree to. They can be excellent protectors of your house as few mages thing to check for spirits."
+    "descriptionText":"Spirits can be found all around us but few take the time to figure out how to see and communicate with them. Unlike ghosts, who come from people with strong wills that died before accomplishing their goals, spirits are born of nature. They tend to be benevolent, but the Fae are often tricksters, and have a different sense of right and wrong. You will be able to see and chat with spirits, and learn how to infuse them into objects should they agree to. They can be excellent protectors of your house as few mages think to check for spirits."
   },
   "green:animal-form":
   {
@@ -32,14 +32,14 @@
     "titleText":"Beast Taming",
     "cost": 3,
     "imageLink":"",
-    "descriptionText":"Beast and mosters are common in the wild, and knowing how not to be their next meal is highly useful. You will learn to tell similar species apart, their diet, where they may be found, how to track them, and how to tame them. Talented Beast tamers are able to call for the assistance of beasts to fight with them, or even ride them. <br /><br /> The confidence you gain from the class makes beasts more likey to avoid attacking you, and more likely to be intrigued by you."
+    "descriptionText":"Beast and monsters are common in the wild, and knowing how not to be their next meal is highly useful. You will learn to tell similar species apart, their diet, where they may be found, how to track them, and how to tame them. Talented Beast tamers are able to call for the assistance of beasts to fight with them, or even ride them. <br /><br /> The confidence you gain from the class makes beasts more likey to avoid attacking you, and more likely to be intrigued by you."
   },
   "green:herblore":
   {
     "titleText":"Herblore",
     "cost": 4,
     "imageLink":"",
-    "descriptionText":"In the heart of the Green classes is Herblore: knowing how to find and grow herbs and mushrooms. You learn spells to detect plants, making them light up in your vision. Besides that plants tend to like Herbalists and want to be picked by them: thorns won't hurt you and any plants that can defend itself, choosing not t when you are near. That is assuming you are kind to nature of course, and treat the plants well. The illusive Dryands are more prone to appear near Herbalists, as the forest does not feel threatened by you."
+    "descriptionText":"In the heart of the Green classes is Herblore: knowing how to find and grow herbs and mushrooms. You learn spells to detect plants, making them light up in your vision. Besides that plants tend to like Herbalists and want to be picked by them: thorns won't hurt you and any plants that can defend itself, choosing not to when you are near. That is assuming you are kind to nature of course, and treat the plants well. The illusive Dryads are more prone to appear near Herbalists, as the forest does not feel threatened by you."
   },
   "green:growth":
   {

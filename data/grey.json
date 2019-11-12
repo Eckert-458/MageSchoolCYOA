@@ -4,14 +4,14 @@
     "titleText":"Magic 101",
     "cost": 2,
     "imageLink":"",
-    "descriptionText":"A general class all about magic and spells, how they work and what mana is. You won't be learning any spells, but it teaches theory you could be unfamiliar with. There's a big focus on regerenating mana and dealing with mana sickness: Running out of mana in the middle of a fight is a shameful way to go out. More advanced mages can still benefit from learning techniqques to replenish mana faster. Many do however treat it as a goofing-off class, a time to meet up with friends or to interact with the other sex."
+    "descriptionText":"A general class all about magic and spells, how they work and what mana is. You won't be learning any spells, but it teaches theory you could be unfamiliar with. There's a big focus on regerenating mana and dealing with mana sickness: Running out of mana in the middle of a fight is a shameful way to go out. More advanced mages can still benefit from learning techniques to replenish mana faster. Many do however treat it as a goofing-off class, a time to meet up with friends or to interact with the other sex."
   },
   "grey:martial-arts":
   {
     "titleText":"Martial Arts",
     "cost": 3,
     "imageLink":"",
-    "descriptionText":"A mage who relies on magic for everything is a poor mage. You will more than likely find yourself in a situation of three where magic isn't an option and fisticuffs must be used. You might have run out of juice, be fighting too many enemies or be afraid of collateral damage. In close quearters it can be difficult to fire off spells both rapidly and with accuarcy, as you'll need to dodge blows while chanting spells. In class students will learn fighting strategies and how to fight and win in melee combat, (as well as how to de-escalate situations)"
+    "descriptionText":"A mage who relies on magic for everything is a poor mage. You will more than likely find yourself in a situation of three where magic isn't an option and fisticuffs must be used. You might have run out of juice, been fighting too many enemies, or been afraid of collateral damage. In close quarters it can be difficult to fire off spells both rapidly and with accuracy, as you'll need to dodge blows while chanting spells. In class students will learn fighting strategies and how to fight and win in melee combat, (as well as how to de-escalate situations)"
   },
   "grey:blink":
   {
@@ -25,28 +25,28 @@
     "titleText":"Jewelcraft",
     "cost": 4,
     "imageLink":"",
-    "descriptionText":"Learn to create pure jewels out of common rocks. The quality of the jewel depends on the size and purity of the rocks, and the time you invest in magicaly chiseling the stone. Once you've made the gemstone, you can store mana inside of it, to either instantly cast the spell you chose or to toss it like a make-shift alchemical bomb. Gravity bombs are quite popular. Naturaly you will need to know the relevant spell if you want to use the gems for making bombs. Jewels are consumed upon use and offer a huge boost if one plans ahead."
+    "descriptionText":"Learn to create pure jewels out of common rocks. The quality of the jewel depends on the size and purity of the rocks, and the time you invest in magicaly chiseling the stone. Once you've made the gemstone, you can store mana inside of it, to either instantly cast the spell you chose or to toss it like a make-shift alchemical bomb. Gravity bombs are quite popular. Naturally you will need to know the relevant spell if you want to use the gems for making bombs. Jewels are consumed upon use and offer a huge boost if one plans ahead."
   },
   "grey:levitation":
   {
     "titleText":"Levitation",
     "cost": 4,
     "imageLink":"",
-    "descriptionText":"Cause objects to float in midair, defying the laws of physics for a period of time. Levitation magic is a focused version of Gravity, where you affect a single object rather than an area. It is generally far harder to make living beings (who struggle) float. Making an object float is not the most difficult part of the class. That would be changing the altitude of the object by changing whether gravity points up or down. Knowing Force magic tends to speed up the learning preocess up, and if the two were combined you could get proper telekinesis."  
+    "descriptionText":"Cause objects to float in midair, defying the laws of physics for a period of time. Levitation magic is a focused version of Gravity, where you affect a single object rather than an area. It is generally far harder to make living beings (who struggle) float. Making an object float is not the most difficult part of the class. That would be changing the altitude of the object by changing whether gravity points up or down. Knowing Force magic tends to speed up the learning process up, and if the two were combined you could get proper telekinesis."  
   },
   "grey:detection":
   {
     "titleText":"Detection",
     "cost": 4,
     "imageLink":"",
-    "descriptionText":"There are many spells which can't be seen with the naked eyes, but almost all still leave behind a kind of magical residue that can be detected. Detection teaches just that: finding the faint traces, stitching the fragments together and learning what spel was used. It rarely tells you the purpose or what the spell was used on. Detection is commonly used to solve crimes. Detection can NOT be used to find more wards, old curses, or blessings because Detection relies on looking for recent mana expenditures in an area. It will however work if they were very recently cast."
+    "descriptionText":"There are many spells which can't be seen with the naked eyes, but almost all still leave behind a kind of magical residue that can be detected. Detection teaches just that: finding the faint traces, stitching the fragments together and learning what spell was used. It rarely tells you the purpose or what the spell was used on. Detection is commonly used to solve crimes. Detection can NOT be used to find more wards, old curses, or blessings because Detection relies on looking for recent mana expenditures in an area. It will however work if they were very recently cast."
   },
   "grey:telepathy":
   {
     "titleText":"Telepathy",
     "cost": 4,
     "imageLink":"",
-    "descriptionText":"In telepathy you will learn how to establish a mental connection to another person. It is possible to connect to multiple at a time, but many develop migraines doing so. When you establish a connection - unless you are a pro - the other person will feel an itch. Once established you can talk freely to the other person. You <i>can</i> eavesdrop on thei surface thoughts, but mindreading isn't covered by the curriculum as it is deemed unethical. Due to to the great difficulty to discover others using telepathy, it is often (mis)used to cheat on exams."
+    "descriptionText":"In telepathy you will learn how to establish a mental connection to another person. It is possible to connect to multiple at a time, but many develop migraines doing so. When you establish a connection - unless you are a pro - the other person will feel an itch. Once established you can talk freely to the other person. You <i>can</i> eavesdrop on their surface thoughts, but mindreading isn't covered by the curriculum as it is deemed unethical. Due to to the great difficulty to discover others using telepathy, it is often (mis)used to cheat on exams."
   },
   "grey:mana-channeling":
   {
@@ -60,7 +60,7 @@
     "titleText":"Force",
     "cost": 6,
     "imageLink":"",
-    "descriptionText":"Plan old pushing people and objects away or pulling them towards you. Learning the right amount of force to apply can be tricky: you do not want to break something, but you also want to use enough to actaully push it. That is why the first classes will be strictly using plastic vases. Force has no elemental properties making it neither specifically good or bad against any enemy. Most people in the class with be people unfamiliar with magic... or they want an easy A."
+    "descriptionText":"Plan old pushing people and objects away or pulling them towards you. Learning the right amount of force to apply can be tricky: you do not want to break something, but you also want to use enough to actually push it. That is why the first classes will be strictly using plastic vases. Force has no elemental properties making it neither specifically good or bad against any enemy. Most people in the class with be people unfamiliar with magic... or they want an easy A."
   },
   "grey:gravity":
   {

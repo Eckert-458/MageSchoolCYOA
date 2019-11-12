@@ -12,7 +12,7 @@ var Mustache = require('mustache');
 // Build Webpage
 //
 //===========================================================================
- function buildpage()
+function buildpage()
 {
   var dataFile = {};
   // Consolidate all the data
