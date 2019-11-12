@@ -33,7 +33,7 @@ public
 --------
 All files in this folder are visible to visitors of the CYOA
 
-`client.js` - The Javascript that
+`client.js` - The Javascript that controls user interactions.
 
 `dataFile.json` - This is a generated file that contains a node for each displayed element in the CYOA, with subnodes that describe details like cost, or name
 

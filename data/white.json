@@ -25,14 +25,14 @@
     "titleText":"Blessings",
     "cost": 4,
     "imageLink":"",
-    "descriptionText":"Blessings covers the vast array of spells that improve your life for some hours or days. They tend to be weaker due to how long-lasting they are, but the are effective nonetheless. Mages that know Blessings are always popular among non-magicians. Some blessings make you better at focusing, others make you feel like Fate is bending to your wil. While a blessing can not directly affect other (ie it cannot make that cute girl blush when you wink at her) you would be surprised how differently the world acts when you feel good."
+    "descriptionText":"Blessings covers the vast array of spells that improve your life for some hours or days. They tend to be weaker due to how long-lasting they are, but the are effective nonetheless. Mages that know Blessings are always popular among non-magicians. Some blessings make you better at focusing, others make you feel like Fate is bending to your will. While a blessing can not directly affect other (ie it cannot make that cute girl blush when you wink at her) you would be surprised how differently the world acts when you feel good."
   },
   "white:shielding":
   {
     "titleText":"Shielding",
     "cost": 6,
     "imageLink":"",
-    "descriptionText":"When it isn't possible to dodge or Dispel a spell, you have to tank it. Rahter than get attacked directly, the Shielding calls teaches you spells that set up an aura that absorbs or at least weakens other spells before they hit. Shielding has a higher success rate than trying to deflect a spell, as the most used Shielding spell passively protects you; it is always up, until you deactivate it. With a shield up, you can focus 100% on fighting back instead of interrupting your flow to reflect. There is also a spell that applies this aura on others."
+    "descriptionText":"When it isn't possible to dodge or Dispel a spell, you have to tank it. Rather than get attacked directly, the Shielding calls teaches you spells that set up an aura that absorbs or at least weakens other spells before they hit. Shielding has a higher success rate than trying to deflect a spell, as the most used Shielding spell passively protects you; it is always up, until you deactivate it. With a shield up, you can focus 100% on fighting back instead of interrupting your flow to reflect. There is also a spell that applies this aura on others."
   },
   "white:exorcism":
   {

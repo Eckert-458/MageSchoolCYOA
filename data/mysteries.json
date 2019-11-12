@@ -3,19 +3,19 @@
   {
     "titleText":"Lounge",
     "imageLink":"",
-    "descriptionText":"Each week the faculty of Migorn create a complex muti-part puzzle for the students to solve. You and a group of friends can team up to solve this puzzle, testing both your intelligence, knowledge, and skills as a mage. By completing the puzzle in full, you gain access to the mythical Lounge, a special room that changes locations every week. Inside there will be snacks from all corners of the world, as well as fun activities to pick from. One week might be a pool party, while another week might have an all you can eat buffet featuring exotic foods. <i>In theory you could stumble upon the room at random, but given the size of Migorn the odds are exactly nil.</i>"
+    "descriptionText":"Each week the faculty of Migorn create a complex muti-part puzzle for the students to solve. You and a group of friends can team up to solve this puzzle, testing both your intelligence, knowledge, and skills as a mage. By completing the puzzle in full, you gain access to the mythical Lounge, a special room that changes locations every week. Inside there will be snacks from all corners of the world, as well as fun activities to pick from. One week might be a pool party, while another week might have an all you can eat buffet featuring exotic foods. <br /><br /><i>In theory you could stumble upon the room at random, but given the size of Migorn the odds are exactly nil.</i>"
   },
   "mysteries:catacombs":
   {
     "titleText":"The Catacombs",
     "imageLink":"",
-    "descriptionText":"Deep beneath the Bishop dorms ie the catacombs. Keys aren't given out to just anybody but you came accross one. Skeletons lounge about, and ghosts wail, with many visitors giving up after only exploring the first few rooms. You'll need nerves of stell, or plenty of Black classes, to not cower in terror like the others. If you do manage to persevere you will find the ghosts come to respect you: The trickster will be too bored of you to scare you, and more helpful ghosts can lead you to secret areas with items lost over the years. Remember to always check for mimics!. Do be careful, as the catacombs are very extensive, and not everything down here is friendly.."
+    "descriptionText":"Deep beneath the Bishop dorms lie the catacombs. Keys aren't given out to just anybody but you came across one. Skeletons lounge about, and ghosts wail, with many visitors giving up after only exploring the first few rooms. You'll need nerves of stell, or plenty of Black classes, to not cower in terror like the others. If you do manage to persevere you will find the ghosts come to respect you: The trickster will be too bored of you to scare you, and more helpful ghosts can lead you to secret areas with items lost over the years. Remember to always check for mimics! Do be careful, as the catacombs are very extensive, and not everything down here is friendly..."
   },
   "mysteries:hidden-library":
   {
     "titleText":"Hidden Library",
     "imageLink":"",
-    "descriptionText":"Migorn has an impressive library, so vast that maps are posted to help students find their way back after being buried in a book for hours. While visiting the library one dy, hushed voices coming from seemingly nowhere will direct you down hallways with progressively more cobwebs until you find an abandoned room. As you walk, the voices become louder, but hush completely once you walk inside. In this room with naught but a cushy chair and books stacked high you will find ancient scrolls in an unfamiliar language. When you try to read texts, the words words will begin to make sense and you will uncover hidden truths and find forgotten spells."
+    "descriptionText":"Migorn has an impressive library, so vast that maps are posted to help students find their way back after being buried in a book for hours. While visiting the library one day, hushed voices coming from seemingly nowhere will direct you down hallways with progressively more cobwebs until you find an abandoned room. As you walk, the voices become louder, but hush completely once you walk inside. In this room with naught but a cushy chair and books stacked high you will find ancient scrolls in an unfamiliar language. When you try to read texts, the words words will begin to make sense and you will uncover hidden truths and find forgotten spells."
   },
   "mysteries:study-hall":
   {

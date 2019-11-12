@@ -2,10 +2,12 @@
 // run by the browser each time your view template is loaded
 
 console.log("Setting things up...");
-var dataFile = {};
-var sectionFile = {};
-var flags ={};
-var titles = {  "title:lich":false,
+var dataFile = {};    // Store details about each node, such as the title, description text, restrictions, cost, etc
+var sectionFile = {}; // Store lists of what dataFile nodes are in what sections
+var flags ={};        // Store if user has clicked a node (TRUE) or not (FALSE)
+
+// Store if user is allowed to click on the following nodes Hidden & not allowed = FALSE / TRUE = allowed
+var valid = {  "title:lich":false,
                 "title:sorcerer":false,
                 "title:wizard":false,
                 "title:witch":false,
@@ -14,8 +16,8 @@ var titles = {  "title:lich":false,
                 "title:priest":false,
                 "title:defender":false,
                 "title:battlemage":false,
-                "title:spellblade":false };
-var friends = { "friends:alice": false };
+                "title:spellblade":false,
+                "friends:alice": false };
 var credits = 60;
 
 init();
@@ -42,12 +44,14 @@ function init()
     printUpdate();
   });
 }
+// Fetch a JSON file & parse it
 function getDataJSON(filename)
 {
   console.log("Loading "+ filename +"...")
   return fetch(filename)
     .then( (response) => response.json());
 }
+// Generate Flags
 function buildFlags()
 {
   for (const node in dataFile)
@@ -55,6 +59,7 @@ function buildFlags()
     flags[node]=false;
   }
 }
+// Set all of the clickable HTML elements
 function setEventListeners()
 {
   for (const node in flags)
@@ -102,7 +107,7 @@ function toggle(node)
   }
   
   // Don't allow selection for ineligable titles
-  if(titles[node] == false || friends[node] == false)
+  if(valid[node] == false)
   {
     return;
   }
@@ -189,54 +194,60 @@ function validate()
 }
 function checkFriends()
 {
-  friends["friends:alice"] = ! flags["living-conditions:single"];
+  valid["friends:alice"] = ! flags["living-conditions:single"];
   
-  for(var node of Object.keys(friends))
+  for(var node of Object.keys(valid))
   {
-    setHidden(node, friends[node], "You can no longer be friends with");
+    if(node.startsWith("friends:"))
+    {
+      setHidden(node, valid[node], "You can no longer be friends with");
+    } 
   }
 }
 function checkTitles()
 {
   var colors = countColors();
   
-  // lich check
-  
-  titles["title:lich"] = colors["black"] > Math.max(colors["blue"],colors["green"],colors["grey"],colors["red"],colors["white"]);
+  // lich
+  valid["title:lich"] = colors["black"] > Math.max(colors["blue"],colors["green"],colors["grey"],colors["red"],colors["white"]);
   
   // Sorcerer
-  titles["title:sorcerer"] = (colors["blue"] + colors["red"]) > (colors["black"] + colors["green"] + colors["white"]);
+  valid["title:sorcerer"] = (colors["blue"] + colors["red"]) > (colors["black"] + colors["green"] + colors["white"]);
   
   // Wizard
-  titles["title:wizard"] = (colors["black"] <= 15) && (colors["blue"] <= 15) && (colors["green"] <= 15) && (colors["red"] <= 15) && (colors["white"] <= 15);
+  valid["title:wizard"] = (colors["black"] <= 15) && (colors["blue"] <= 15) && (colors["green"] <= 15) && (colors["red"] <= 15) && (colors["white"] <= 15);
   
   // Witch
-  titles["title:witch"] = aryCount([flags["blue:familiar"],flags["black:curses"],flags["red:toxic"],flags["blue:conjuration"]]) >= 2;
+  valid["title:witch"] = aryCount([flags["blue:familiar"],flags["black:curses"],flags["red:toxic"],flags["blue:conjuration"]]) >= 2;
   
   // Druid
-  titles["title:druid"] = (colors["black"] == 0) && (colors["red"] == 0 || (colors["red"] == dataFile["red:earth"].cost && flags["red:earth"])) && (colors["green"] >= 15);
+  valid["title:druid"] = (colors["black"] == 0) && (colors["red"] == 0 || (colors["red"] == dataFile["red:earth"].cost && flags["red:earth"])) && (colors["green"] >= 15);
   
   // Alchemist
-  titles["title:alchemist"] = aryCount([flags["grey:jewelcraft"],flags["blue:enchanting"],flags["blue:conjuration"]]) >= 2;
+  valid["title:alchemist"] = aryCount([flags["grey:jewelcraft"],flags["blue:enchanting"],flags["blue:conjuration"]]) >= 2;
   
   // Priest
-  titles["title:priest"] = (colors["black"] == 0) && (colors["red"] < 8) && (colors["white"] >= 15);
+  valid["title:priest"] = (colors["black"] == 0) && (sectionCount("red") <= 1) && (colors["white"] >= 15);
   
   // Defender
-  titles["title:defender"] = aryCount([flags["blue:dispel"],flags["blue:reflect"],flags["white:shielding"],flags["white:healing"]]) >= 2;
+  valid["title:defender"] = aryCount([flags["blue:dispel"],flags["blue:reflect"],flags["white:shielding"],flags["white:healing"]]) >= 2;
   
   // Battlemage
-  titles["title:battlemage"] = (flags["grey:mana-channeling"] || flags["grey:martial-arts"]) && (colors["red"] >= 15);
+  valid["title:battlemage"] = (flags["grey:mana-channeling"] || flags["grey:martial-arts"]) && (colors["red"] >= 15);
   
   // Spellblade
-  titles["title:spellblade"] = flags["blue:enchanting"] && (colors["red"] >= 15);
+  valid["title:spellblade"] = flags["blue:enchanting"] && (sectionCount("red") >= 3);
   
-  for(var node of Object.keys(titles))
+  for(var node of Object.keys(valid))
   {
-    setHidden(node, titles[node], "You no longer qualify for the title");
+    if( node.startsWith("title:"))
+    {
+      setHidden(node, valid[node], "You no longer qualify for the title");
+    }
   }
   
 }
+// Add / Remove hidden class from HTML node, if node was selected provide an alert
 function setHidden(node,bool,message)
 {
   if(bool)
@@ -253,6 +264,7 @@ function setHidden(node,bool,message)
       }
     }
 }
+// Create a count of the number of classes taken for each color
 function countColors()
 {
   var colors = {"black":0,"blue":0,"green":0,"grey":0,"red":0,"white":0};
@@ -269,7 +281,7 @@ function countColors()
   }
   return colors;
 }
-
+// Count the number of true elements in an array
 function aryCount( ary )
 {
     var count = 0;
@@ -283,7 +295,7 @@ function aryCount( ary )
     });
   return count;
 }
-
+// Count the number of user-selected elements in a particular section
 function sectionCount( node )
 {
     var count = 0;
@@ -307,6 +319,7 @@ function printUpdate()
   credits = calcCredits();
   validate();
   
+  // ##TODO## reduce number of calls to innerHTML to reduce layout thrashing
   document.getElementById("outCredits").innerHTML      = ""+credits+" Credits";
   document.getElementById("outTitle").innerHTML        = getSectionRadio("titles");
   document.getElementById("final-courses").innerHTML   = aryToString(getCourseAry(), "<br />");
@@ -316,7 +329,7 @@ function printUpdate()
   document.getElementById("final-friends").innerHTML   = aryToString(getSectionAry("friends"), "<br />");
   document.getElementById("redditTable").innerHTML     = redditExport();
 }
-
+// Get the single value from a radio type section
 function getSectionRadio(section)
 {
   var outString = "";
@@ -330,6 +343,8 @@ function getSectionRadio(section)
   }
   return outString;
 }
+
+// Get an array of courses selected
 function getCourseAry()
 {
   var outAry = [];
@@ -343,6 +358,8 @@ function getCourseAry()
   
   return outAry;
 }
+
+// Convert an array to a delimited string
 function aryToString(ary, delimiter)
 {
   var outString = "";
@@ -356,6 +373,8 @@ function aryToString(ary, delimiter)
   }
   return outString;
 }
+
+// Return the array of selected choices in a section
 function getSectionAry(section)
 {
   var outAry = [];
